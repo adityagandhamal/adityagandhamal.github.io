@@ -25,10 +25,10 @@ author:
   name             : "Aditya Gandhamal" #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "A passionate Real Madrid Aficionado" #"Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Bangalore"
+  employer         : "Indian Institute of Science, Bangalore"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "adityam1@iisc.ac.in" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
