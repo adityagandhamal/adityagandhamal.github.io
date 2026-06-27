@@ -20,8 +20,20 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2026</span>
+      <span style="font-size:0.9em; color:#222;"><strong>CoLoRA</strong> accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">FEB 2026</span>
+      <span style="font-size:0.9em; color:#222;">Released <a href="https://www.sarvam.ai/blogs/sarvam-vision"><strong>Sarvam Vision</strong></a> — India's first sovereign VLM — and presented at the <strong>Impact India AI Summit, New Delhi</strong>.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2025</span>
-      <span style="font-size:0.9em; color:#222;">Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow, working on India's first sovereign Vision-Language Model.</span>
+      <span style="font-size:0.9em; color:#222;">Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow.</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
@@ -32,8 +44,8 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
-      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">2025</span>
-      <span style="font-size:0.9em; color:#222;"><strong>CoLoRA</strong> accepted at <strong>IROS 2026</strong>.</span>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">DEC 2024</span>
+      <span style="font-size:0.9em; color:#222;"><a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> launched with the <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> by <a href="https://galaxeye.space/">GalaxEye Space</a> carrying the co-registration algorithm I developed.</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
@@ -44,20 +56,14 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
-      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUL 2024</span>
-      <span style="font-size:0.9em; color:#222;">Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> — <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> by <a href="https://galaxeye.space/">GalaxEye Space</a>.</span>
-    </div>
-
-    <div style="position: relative; margin-bottom: 20px;">
-      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
-      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2024</span>
-      <span style="font-size:0.9em; color:#222;">Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</span>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">MAY 2024</span>
+      <span style="font-size:0.9em; color:#222;">Deployed SAR-optical co-registration algorithm on the <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> at <a href="https://galaxeye.space/">GalaxEye Space</a>.</span>
     </div>
 
     <div style="position: relative; margin-bottom: 6px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#aab4c8; border:2px solid #fff; box-shadow:0 0 0 2px #aab4c8;"></div>
-      <span style="font-size:0.78em; font-weight:700; color:#aab4c8; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2023</span>
-      <span style="font-size:0.9em; color:#555;">Graduated B.E. in Electronics and Telecommunication from Savitribai Phule Pune University.</span>
+      <span style="font-size:0.78em; font-weight:700; color:#aab4c8; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2024</span>
+      <span style="font-size:0.9em; color:#555;">Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</span>
     </div>
 
   </div>
@@ -70,21 +76,22 @@ My work sits at the intersection of **robust perception**, **open-world learning
   <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">CoLoRA: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation</p>
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
-    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">IROS 2026</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</p>
     <a href="https://aniruddhsikdar1.github.io/publications/colora/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
   <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">OV-COAST: Cost Aggregation with Optimal Transport for Open-Vocabulary Semantic Segmentation</p>
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Suresh Sundaram</p>
-    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">T4V Workshop, CVPR 2025</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">The 4th Workshop on Transformers for Vision (T4V) at CVPR 2025</p>
     <a href="https://aniruddhsikdar1.github.io/publications/ov-coast/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
   <div style="margin-bottom: 0.4em;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">AetherVision-Bench: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation across Aerial and Ground Perspectives</p>
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
-    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">FMEA Workshop, CVPR 2025</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">Workshop on Foundation Models Meet Embodied Agents (FMEA) at CVPR 2025</p>
+    <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
 </div>
@@ -93,24 +100,45 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
 ## Selected Projects
 
-<div style="margin-top: 0.6em;">
+<style>
+.sp-card { margin-bottom: 1.8em; padding-bottom: 1.8em; border-bottom: 1px solid #f0f0f0; }
+.sp-card:last-child { border-bottom: none; }
+.sp-motivation { font-size:0.87em; color:#555; font-style:italic; border-left:3px solid #d0d8e8; padding-left:10px; margin:5px 0 7px 0; line-height:1.6; }
+.sp-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; max-width:620px; margin:10px 0 8px 0; }
+.sp-grid-item img { width:100%; height:170px; object-fit:contain; background:#f8f8f8; border-radius:5px; border:1px solid #e0e0e0; display:block; }
+.sp-caption { font-size:0.78em; color:#777; margin-top:3px; }
+</style>
 
-  <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
-    <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/clip_cam" style="color:#1a1a1a; text-decoration:none;">CLIPcam</a> &nbsp;<code style="font-size:0.82em; background:#f4f4f4; padding:1px 6px; border-radius:3px; font-weight:400;">pip install clip-cam</code></p>
-    <p style="font-size:0.88em; color:#444; margin:0;">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for explainability.</p>
-    <div style="margin-top:8px;">
-      <a href="https://github.com/adityagandhamal/clip_cam" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
-      &nbsp;&nbsp;
-      <a href="https://pypi.org/project/clip-cam/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">PyPI →</a>
+<div class="sp-card">
+  <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/clip_cam" style="color:#1a1a1a; text-decoration:none;">CLIPcam</a> &nbsp;<code style="font-size:0.82em; background:#f4f4f4; padding:1px 6px; border-radius:3px; font-weight:400;">pip install clip-cam</code></p>
+  <p class="sp-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging and trust. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through Grad-CAM-style heatmaps.</p>
+  <p style="font-size:0.88em; color:#333; margin:0 0 8px 0;">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for explainability.</p>
+  <a href="https://github.com/adityagandhamal/clip_cam" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
+  &nbsp;&nbsp;
+  <a href="https://pypi.org/project/clip-cam/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">PyPI →</a>
+</div>
+
+<div class="sp-card">
+  <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="color:#1a1a1a; text-decoration:none;">Prompt Learning with CLIP for Open Vocabulary Segmentation</a></p>
+  <p class="sp-motivation">Fixed-text templates like "a photo of a [CLASS]" are brittle for open-vocabulary segmentation — they fail to capture context or generalise to unseen categories. Prompt learning replaces these with learnable vectors, enabling CLIP-based segmentation models to adapt their textual representations to diverse domains.</p>
+  <p style="font-size:0.88em; color:#333; margin:0 0 8px 0;">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 20 multi-domain datasets.</p>
+  <div class="sp-grid">
+    <div>
+      <img src="/images/projects/prompr-learning-base-CATSeg-CVPR24.png" alt="CAT-Seg baseline">
+      <p class="sp-caption">Base: CAT-Seg (CVPR'24)</p>
+    </div>
+    <div>
+      <img src="/images/projects/prompt-learning-CoOp-IJCV22.png" alt="CoOp">
+      <p class="sp-caption">+ CoOp (IJCV'22)</p>
+    </div>
+    <div>
+      <img src="/images/projects/prompt-learning-CoCoOp-CVPR22.png" alt="CoCoOp">
+      <p class="sp-caption">+ CoCoOp (CVPR'22)</p>
+    </div>
+    <div>
+      <img src="/images/projects/prompt-learning-TCP-CVPR24.png" alt="TCP">
+      <p class="sp-caption">+ TCP (CVPR'24)</p>
     </div>
   </div>
-
-  <div style="margin-bottom: 0.4em;">
-    <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="color:#1a1a1a; text-decoration:none;">Prompt Learning with CLIP for Open Vocabulary Segmentation</a></p>
-    <p style="font-size:0.88em; color:#444; margin:0;">Implemented and ablated prompt learning techniques for CAT-Seg (CVPR'24) integrating Context Optimization, Conditional Context Optimization, and Textual-based Class-aware Prompting; evaluated across the MESS benchmark covering 20 multi-domain datasets.</p>
-    <div style="margin-top:8px;">
-      <a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
-    </div>
-  </div>
-
+  <a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
 </div>

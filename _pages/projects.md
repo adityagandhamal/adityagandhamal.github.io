@@ -19,7 +19,7 @@ author_profile: true
 .proj-link { font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600; margin-right:14px; }
 .proj-media { margin:12px 0 10px 0; }
 .media-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; max-width:620px; }
-.media-grid-item img,
+.media-grid-item img { width:100%; height:180px; object-fit:contain; background:#f8f8f8; border-radius:5px; border:1px solid #e0e0e0; display:block; }
 .media-grid-item video { width:100%; height:180px; object-fit:cover; border-radius:5px; border:1px solid #e0e0e0; display:block; }
 .media-caption { font-size:0.78em; color:#777; margin-top:4px; }
 .section-label { font-size:0.78em; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#2a6ebb; border-bottom:2px solid #2a6ebb; padding-bottom:4px; margin:0 0 1.6em 0; }
@@ -102,7 +102,7 @@ author_profile: true
   </div>
   <span class="proj-tag">Open-Vocabulary</span><span class="proj-tag">Prompt Learning</span><span class="proj-tag">Segmentation</span>
   <p class="proj-motivation">Fixed-text templates like "a photo of a [CLASS]" are brittle for open-vocabulary segmentation — they fail to capture context or generalise to unseen categories. Prompt learning replaces these with learnable vectors, enabling CLIP-based segmentation models to adapt their textual representations to diverse domains.</p>
-  <p class="proj-desc">Implemented and ablated three prompt learning strategies integrated into CAT-Seg (CVPR'24): Context Optimization (CoOp), Conditional Context Optimization (CoCoOp), and Textual Class-aware Prompting (TCP). Evaluated across the MESS benchmark spanning 20 multi-domain datasets.</p>
+  <p class="proj-desc">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 20 multi-domain datasets.</p>
   <div class="proj-media">
     <div class="media-grid">
       <div class="media-grid-item">
