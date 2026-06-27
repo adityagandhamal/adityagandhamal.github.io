@@ -11,7 +11,42 @@ I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on la
 
 ## Research Interests
 
-My work sits at the intersection of **robust perception**, **open-world learning**, and **multi-sensor fusion**. I'm drawn to the problem of making vision systems generalize — beyond fixed category sets, beyond single modalities, and across wildly different deployment conditions. At IISc, this meant adapting CLIP for open-vocabulary segmentation using Optimal Transport and parameter-efficient fine-tuning, and building benchmarks that stress-test models across aerial, ground, and cross-modal settings. At GalaxEye, it meant fusing SAR and optical data from drone and satellite platforms, and deploying a coregistration algorithm aboard a live ISRO mission. At Sarvam, it means scaling VLMs to handle 22 Indian languages and achieve state-of-the-art on real-world document understanding benchmarks.
+<div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:0.7em;">
+
+  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
+    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">Sarvam AI</p>
+    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">Research Fellow · 2025–present</p>
+    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">Scaling Vision-Language Models for 22 Indian languages — large-scale data generation for pre-training and SFT, with state-of-the-art results on document understanding benchmarks.</p>
+    <div>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">VLMs</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Multilingual</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Document Understanding</span>
+    </div>
+  </div>
+
+  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
+    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">IISc · AIRL</p>
+    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">Pre-Doctoral Researcher · 2024–2025</p>
+    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">Adapting CLIP for open-vocabulary segmentation via Optimal Transport and LoRA; building cross-modal benchmarks spanning aerial, ground, RGB, and infrared perspectives.</p>
+    <div>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Open-Vocabulary</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Optimal Transport</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">CLIP · LoRA</span>
+    </div>
+  </div>
+
+  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
+    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">GalaxEye Space</p>
+    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">DL & Image Processing Intern · 2024</p>
+    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">SAR-optical data fusion from drone and satellite platforms; co-registration algorithm deployed aboard ISRO's POEM-4 mission on the GLX-SQ payload.</p>
+    <div>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">SAR-Optical Fusion</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Remote Sensing</span>
+      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">ISRO POEM-4</span>
+    </div>
+  </div>
+
+</div>
 
 ## News
 
