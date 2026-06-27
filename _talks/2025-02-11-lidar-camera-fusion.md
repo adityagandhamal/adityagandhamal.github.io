@@ -6,6 +6,7 @@ permalink: /talks/2025-02-11-lidar-camera-fusion
 venue: "Faculty Development Workshop on AI-Driven Autonomous Drones, Indian Institute of Science"
 date: 2025-02-11
 location: "Bangalore, India"
+excerpt: "A survey of 3D data representations and SOTA LiDAR, camera, and fusion architectures for 3D object detection, with applications in autonomous driving."
 ---
 
 <p style="color:#555; font-size:0.9em; margin-top:-0.5em;">Faculty Development Workshop on AI-Driven Autonomous Drones &nbsp;·&nbsp; Indian Institute of Science &nbsp;·&nbsp; Feb 11, 2025</p>
