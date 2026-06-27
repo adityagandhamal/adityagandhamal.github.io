@@ -27,6 +27,8 @@
     <p style="font-style: italic; color: #555; font-size: 0.87em; margin: 0 0 10px 0;">{{ post.venue }}</p>
     {% if post.projecturl %}
     <a href="{{ post.projecturl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+    {% elsif post.paperurl %}
+    <a href="{{ post.paperurl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">arXiv →</a>
     {% endif %}
   </div>
 </div>
