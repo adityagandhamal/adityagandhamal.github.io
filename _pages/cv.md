@@ -228,3 +228,14 @@ redirect_from:
     <li>Organized hackathons and workshops; conducted hands-on sessions on TensorFlow and Git/GitHub reaching 150+ students.</li>
   </ul>
 </div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="cv-role">AI/ML Head &mdash; ACM Student Chapter</span>
+    <span class="cv-date">Feb 2021 – Jul 2021</span>
+  </div>
+  <div class="cv-org">Pune</div>
+  <ul class="cv-bullets">
+    <li>Delivered a webinar on "Python for Machine Learning" to around 100 students.</li>
+  </ul>
+</div>
