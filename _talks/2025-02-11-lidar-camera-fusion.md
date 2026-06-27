@@ -7,6 +7,7 @@ venue: "Faculty Development Workshop on AI-Driven Autonomous Drones, Indian Inst
 date: 2025-02-11
 location: "Bangalore, India"
 excerpt: "A survey of 3D data representations and SOTA LiDAR, camera, and fusion architectures for 3D object detection, with applications in autonomous driving."
+slides: "https://docs.google.com/presentation/d/1T7zhQa3aTHLtuskoE2mhqakdr3n3g8GC/edit?usp=sharing"
 ---
 
 <a href="https://docs.google.com/presentation/d/1T7zhQa3aTHLtuskoE2mhqakdr3n3g8GC/edit?usp=sharing" target="_blank" style="display:inline-block; margin-bottom:1.4em; font-size:0.85em; padding:6px 16px; border:1px solid #2a6ebb; border-radius:4px; color:#2a6ebb; text-decoration:none; font-weight:600;">&#128196; View Slides</a>

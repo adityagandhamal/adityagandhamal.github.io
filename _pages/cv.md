@@ -173,9 +173,15 @@ redirect_from:
 
 <div class="cv-section-title">Publications</div>
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign cat_posts = site.publications | where: "category", category[0] %}
+    {% if cat_posts.size > 0 %}
+<p style="font-weight:700; font-size:0.84em; color:#444; margin:1em 0 0.4em; text-transform:uppercase; letter-spacing:0.05em;">{{ category[1].title }}</p>
+<ul style="margin-top:0;">{% for post in site.publications reversed %}{% if post.category == category[0] %}{% include archive-single-cv.html %}{% endif %}{% endfor %}</ul>
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <div class="cv-section-title">Talks</div>
 
