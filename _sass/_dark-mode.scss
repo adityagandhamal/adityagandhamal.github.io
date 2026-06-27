@@ -37,9 +37,7 @@ html[data-theme="dark"] {
       &:hover { color: #fff; }
     }
 
-    button {
-      background-color: #333;
-    }
+    button { background-color: #333; }
 
     .hidden-links {
       background: #252525;
@@ -49,7 +47,6 @@ html[data-theme="dark"] {
       &:after { border-color: #252525 transparent; }
 
       a:hover { background: #333; color: #fff; }
-
       li { border-bottom-color: #333; }
     }
   }
@@ -61,14 +58,22 @@ html[data-theme="dark"] {
 
   .author__avatar img { border-color: #3a3a3a; }
 
+  /* On small screens .author__urls is a popup box — style it dark.
+     On desktop ($large+) the theme resets it to transparent/no-border,
+     so we must restore those resets or a visible box appears. */
   .author__urls {
     background: #252525;
     border-color: #383838;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
     &:after { border-color: #252525 transparent; }
-
     a { color: #c8c8c8; }
+
+    @include breakpoint($large) {
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
   }
 
   .author__name,
@@ -88,17 +93,14 @@ html[data-theme="dark"] {
   /* ----- Global links ----- */
   a { color: #6ab0f5; &:hover { color: #90c8ff; } }
 
-  /* keep social icon colours */
+  /* social / footer links inherit their icon colour */
   .author__urls a,
   .page__footer a { color: inherit; }
 
   /* ----- Typography / borders ----- */
   hr { border-top-color: #333; }
-
   .page__content h2 { border-bottom-color: #333; }
-
   abbr[title], abbr[data-original-title] { border-bottom-color: #555; }
-
   blockquote { border-left-color: #444; }
 
   /* ----- Code ----- */
@@ -109,11 +111,7 @@ html[data-theme="dark"] {
   }
 
   /* ----- Archive / publications page ----- */
-  .archive__subtitle {
-    color: #aaa;
-    border-bottom-color: #333;
-  }
-
+  .archive__subtitle { color: #aaa; border-bottom-color: #333; }
   .archive__item-title a { color: #6ab0f5; }
   .archive__item-excerpt { color: #aaa; }
 
@@ -124,16 +122,9 @@ html[data-theme="dark"] {
     &:hover { color: #6ab0f5; }
   }
 
-  /* ----- Nav sub-title (toc etc.) ----- */
+  /* ----- ToC ----- */
   .nav__sub-title { border-bottom-color: #333; }
-
-  .toc {
-    background: #252525;
-    border-color: #333;
-
-    .nav__title { background: #333; }
-  }
-
+  .toc { background: #252525; border-color: #333; .nav__title { background: #333; } }
   .toc__menu a {
     color: #aaa;
     border-bottom-color: #333;
@@ -141,16 +132,12 @@ html[data-theme="dark"] {
   }
 
   /* ===== CV classes ===== */
-  .cv-section-title {
-    color: #6ab0f5;
-    border-bottom-color: #6ab0f5;
-  }
-
-  .cv-role  { color: #e4e4e4; }
-  .cv-date  { color: #999; }
-  .cv-org   { color: #aaa; }
-  .cv-bullets { color: #ccc; }
-  .cv-skill-label { color: #e0e0e0; }
+  .cv-section-title { color: #6ab0f5; border-bottom-color: #6ab0f5; }
+  .cv-role         { color: #e4e4e4; }
+  .cv-date         { color: #999; }
+  .cv-org          { color: #aaa; }
+  .cv-bullets      { color: #ccc; }
+  .cv-skill-label  { color: #e0e0e0; }
 
   /* ===== Project tags ===== */
   .proj-tag {
@@ -159,49 +146,51 @@ html[data-theme="dark"] {
     border: 1px solid #2a4f7a !important;
   }
 
-  /* ===== Inline-style overrides ===== */
+  /* ===== Inline background overrides ===== */
+  *[style*="background:#f8f8f8"],
+  *[style*="background: #f8f8f8"]  { background-color: #252525 !important; }
 
-  /* light card / image container backgrounds */
-  *[style*="background:#f8f8f8"] { background-color: #252525 !important; }
-  *[style*="background: #f8f8f8"] { background-color: #252525 !important; }
-  *[style*="background:#f0f4ff"] { background-color: #1e2a3a !important; }
-  *[style*="background: #f0f4ff"] { background-color: #1e2a3a !important; }
-  *[style*="background:#fff"] { background-color: #252525 !important; }
-  *[style*="background: #fff"] { background-color: #252525 !important; }
-  *[style*="background:white"] { background-color: #252525 !important; }
+  *[style*="background:#f0f4ff"],
+  *[style*="background: #f0f4ff"]  { background-color: #1e2a3a !important; }
 
-  /* common light borders */
-  *[style*="border:1px solid #eee"]    { border-color: #383838 !important; }
-  *[style*="border: 1px solid #eee"]   { border-color: #383838 !important; }
-  *[style*="border:1px solid #e5e7eb"] { border-color: #383838 !important; }
-  *[style*="border:1px solid #d0ddf7"] { border-color: #2a4a6a !important; }
-  *[style*="border:1px solid #e0e0e0"] { border-color: #383838 !important; }
+  *[style*="background:#fff"],
+  *[style*="background: #fff"],
+  *[style*="background:white"]     { background-color: #252525 !important; }
+
+  /* ===== Inline border overrides ===== */
+  *[style*="border:1px solid #eee"],
+  *[style*="border: 1px solid #eee"],
+  *[style*="border:1px solid #e5e7eb"],
+  *[style*="border:1px solid #e0e0e0"],
   *[style*="border: 1px solid #e0e0e0"] { border-color: #383838 !important; }
 
-  /* dark text colors used in inline styles → lighten them */
-  .page__content *[style*="color:#1a1a1a"],
-  .page__content *[style*="color: #1a1a1a"] { color: #e4e4e4 !important; }
+  *[style*="border:1px solid #d0ddf7"]  { border-color: #2a4a6a !important; }
 
-  .page__content *[style*="color:#333"],
-  .page__content *[style*="color: #333"]   { color: #d4d4d4 !important; }
+  /* ===== Inline dark text → light (GLOBAL, covers news, about, CV, etc.) ===== */
+  *[style*="color:black"],
+  *[style*="color: black"],
+  *[style*="color:#000"],
+  *[style*="color: #000"]     { color: #e4e4e4 !important; }
 
-  .page__content *[style*="color:#444"],
-  .page__content *[style*="color: #444"]   { color: #ccc !important; }
+  *[style*="color:#1a1a1a"],
+  *[style*="color: #1a1a1a"]  { color: #e4e4e4 !important; }
 
-  .page__content *[style*="color:#555"],
-  .page__content *[style*="color: #555"]   { color: #bbb !important; }
+  *[style*="color:#222"],
+  *[style*="color: #222"]     { color: #e0e0e0 !important; }
 
-  .page__content *[style*="color:#666"],
-  .page__content *[style*="color: #666"]   { color: #aaa !important; }
+  *[style*="color:#333"],
+  *[style*="color: #333"]     { color: #d4d4d4 !important; }
+
+  *[style*="color:#444"],
+  *[style*="color: #444"]     { color: #ccc !important; }
+
+  *[style*="color:#555"],
+  *[style*="color: #555"]     { color: #bbb !important; }
+
+  *[style*="color:#666"],
+  *[style*="color: #666"]     { color: #aaa !important; }
 
   /* blue accent links in inline styles */
-  .page__content a[style*="color:#2a6ebb"],
-  .page__content a[style*="color: #2a6ebb"] { color: #6ab0f5 !important; }
-
-  /* publication / about.md card wrappers */
-  .page__content *[style*="font-style:italic"][style*="color:#555"],
-  .page__content *[style*="color:#555; font-size"] { color: #bbb !important; }
-
-  /* talks page, CV bullet text */
-  .page__content *[style*="color:#333; font-size"] { color: #d4d4d4 !important; }
+  a[style*="color:#2a6ebb"],
+  a[style*="color: #2a6ebb"]  { color: #6ab0f5 !important; }
 }
