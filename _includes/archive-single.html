@@ -12,6 +12,41 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% if post.collection == 'publications' %}
+
+<div style="display: flex; gap: 1.4em; margin-bottom: 2.2em; align-items: flex-start;">
+  {% if teaser %}
+  <div style="flex: 0 0 150px;">
+    <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}"
+         style="width: 150px; height: 110px; object-fit: cover; border: 1px solid #ddd; border-radius: 4px;" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+  <div style="flex: 1; min-width: 0;">
+    <p style="font-weight: 700; font-size: 0.97em; margin: 0 0 4px 0; line-height: 1.45; color: #1a1a1a;">{{ post.title }}</p>
+    {% if post.authors %}<p style="color: #444; font-size: 0.87em; margin: 0 0 3px 0;">{{ post.authors }}</p>{% endif %}
+    <p style="font-style: italic; color: #555; font-size: 0.87em; margin: 0 0 10px 0;">{{ post.venue }}</p>
+    <div style="display: flex; gap: 7px; flex-wrap: wrap;">
+      {% if post.abstract %}
+      <a href="{{ base_path }}{{ post.url }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">ABS</a>
+      {% endif %}
+      {% if post.codeurl %}
+      <a href="{{ post.codeurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">CODE</a>
+      {% endif %}
+      {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">PAPER</a>
+      {% endif %}
+      {% if post.posterurl %}
+      <a href="{{ post.posterurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">POSTER</a>
+      {% endif %}
+      {% if post.slidesurl %}
+      <a href="{{ post.slidesurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">SLIDES</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% else %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -33,38 +68,24 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+    {% if post.collection == 'teaching' %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+    {% elsif post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% endif %}
 
   </article>
 </div>
+
+{% endif %}
