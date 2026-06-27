@@ -11,56 +11,45 @@ I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on la
 
 ## Research Interests
 
-My research interests span **robust perception**, **open-world learning**, and **multi-sensor fusion**.
+My work sits at the intersection of **robust perception**, **open-world learning**, and **multi-sensor fusion**. I'm drawn to the problem of making vision systems generalize — beyond fixed category sets, beyond single modalities, and across wildly different deployment conditions. At IISc, this meant adapting CLIP for open-vocabulary segmentation using Optimal Transport and parameter-efficient fine-tuning, and building benchmarks that stress-test models across aerial, ground, and cross-modal settings. At GalaxEye, it meant fusing SAR and optical data from drone and satellite platforms, and deploying a coregistration algorithm aboard a live ISRO mission. At Sarvam, it means scaling VLMs to handle 22 Indian languages and achieve state-of-the-art on real-world document understanding benchmarks.
 
-- **Robust Perception** — Built multimodal benchmarks across EO-IR/Sim-2-Real and aerial-to-ground perspectives to evaluate segmentation robustness in open-world settings.
-- **Open-World Learning** — Adapted CLIP for open-vocabulary semantic segmentation across unseen categories and novel domains using Optimal Transport and parameter-efficient fine-tuning.
-- **Multi-Sensor Fusion** — Developed SAR-optical coregistration and data fusion pipelines; designed and deployed a co-registration algorithm aboard [ISRO's POEM-4 Mission](https://www.isro.gov.in/POEM_4_Payloads_spadex.html).
+## News & Updates
 
-## News / Updates
+<div style="margin-top: 1em;">
 
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Jun 2025</b></td>
-    <td style="padding: 6px 0;">Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow, working on India's first sovereign Vision-Language Model.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Apr 2025</b></td>
-    <td style="padding: 6px 0;">Two papers accepted at CVPR Workshops 2025 (T4V &amp; FMEA).</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>2025</b></td>
-    <td style="padding: 6px 0;">CoLoRA accepted at <b>IROS 2026</b>.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Aug 2024</b></td>
-    <td style="padding: 6px 0;">Joined <a href="https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/">AIRL, IISc</a> as a Pre-Doctoral Researcher under <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Prof. Suresh Sundaram</a>.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Jul 2024</b></td>
-    <td style="padding: 6px 0;">Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> (GLX-SQ payload, <a href="https://x.com/GalaxEye/status/1873977161142448443">GalaxEye Space</a>).</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Apr 2024</b></td>
-    <td style="padding: 6px 0;">Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Jun 2023</b></td>
-    <td style="padding: 6px 0;">Graduated B.E. in Electronics and Telecommunication from Savitribai Phule Pune University.</td>
-  </tr>
-</table>
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Jun 2025</span>
+  <span>Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow, working on India's first sovereign Vision-Language Model.</span>
+</div>
 
-## Open Source
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Apr 2025</span>
+  <span>Two papers accepted at <strong>CVPR Workshops 2025</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</span>
+</div>
 
-- **[CLIPcam](https://pypi.org/project/clip-cam/)** (`pip install clip-cam`) — Python package for visualizing prompt-image feature alignment in ViT-based CLIP models.
-- Contributed to **[Ivy](https://github.com/unifyai/ivy)** (Unify, YC W23) — unified ML framework across PyTorch, TensorFlow, and JAX. Recognized as Top Contributor.
-- Contributions to **PyTorch-RL** and **PyTorch-Vision**.
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">2025</span>
+  <span><strong>CoLoRA</strong> accepted at <strong>IROS 2026</strong>.</span>
+</div>
 
-## Publications
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Aug 2024</span>
+  <span>Joined <a href="https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/">AIRL, IISc</a> as a Pre-Doctoral Researcher under <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Prof. Suresh Sundaram</a>.</span>
+</div>
 
-- **OV-COAST**: Cost Aggregation with Optimal Transport for Open-Vocabulary Semantic Segmentation — *T4V Workshop, CVPR 2025*
-- **AetherVision-Bench**: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation — *FMEA Workshop, CVPR 2025*
-- **CoLoRA**: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation — *Accepted, IROS 2026*
-- **T-CAT**: Toggle-Tune Based Prompt Learning for Open-Vocabulary Semantic Segmentation — *Under Review, TMLR*
-- **Pixel2Perspective**: Benchmark for Multi-Modal and Multi-View Generalization in VLMs — *Under Review, IEEE TAI*
-- **IndraEye**: Infrared Electro-Optical UAV-based Perception Dataset — *arXiv preprint*
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Jul 2024</span>
+  <span>Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> — <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> by <a href="https://galaxeye.space/">GalaxEye Space</a>.</span>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#2a6ebb; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Apr 2024</span>
+  <span>Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</span>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em; gap: 14px;">
+  <span style="background:#555; color:#fff; font-size:0.75em; font-weight:600; padding:3px 10px; border-radius:12px; white-space:nowrap; margin-top:2px;">Jun 2023</span>
+  <span>Graduated B.E. in Electronics and Telecommunication from Savitribai Phule Pune University.</span>
+</div>
+
+</div>
