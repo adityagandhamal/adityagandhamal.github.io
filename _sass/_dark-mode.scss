@@ -1,0 +1,207 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.05em;
+  padding: 0 0.4rem;
+  vertical-align: middle;
+  line-height: 1;
+  color: $masthead-link-color;
+  transition: color 0.2s;
+
+  &:hover { color: $masthead-link-color-hover; }
+}
+
+html[data-theme="dark"] {
+
+  body {
+    background-color: #1a1a1a;
+    color: #d4d4d4;
+  }
+
+  /* ----- Masthead / nav ----- */
+  .masthead {
+    background: #1e1e1e;
+    border-bottom-color: #2e2e2e;
+  }
+
+  .greedy-nav {
+    background: #1e1e1e;
+
+    a {
+      color: #c8c8c8;
+      &:hover { color: #fff; }
+    }
+
+    button {
+      background-color: #333;
+    }
+
+    .hidden-links {
+      background: #252525;
+      border-color: #383838;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+
+      &:after { border-color: #252525 transparent; }
+
+      a:hover { background: #333; color: #fff; }
+
+      li { border-bottom-color: #333; }
+    }
+  }
+
+  #dark-mode-toggle { color: #c8c8c8; &:hover { color: #fff; } }
+
+  /* ----- Sidebar ----- */
+  .sidebar { background-color: #1a1a1a; }
+
+  .author__avatar img { border-color: #3a3a3a; }
+
+  .author__urls {
+    background: #252525;
+    border-color: #383838;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    &:after { border-color: #252525 transparent; }
+
+    a { color: #c8c8c8; }
+  }
+
+  .author__name,
+  .author__bio,
+  .author__pronouns { color: #d4d4d4; }
+
+  /* ----- Footer ----- */
+  .page__footer {
+    background-color: #1e1e1e;
+    border-top-color: #2e2e2e;
+    color: #888;
+
+    a { color: #888; &:hover { color: #aaa; } }
+    .fas, .fab, .far, .fal { color: #888; }
+  }
+
+  /* ----- Global links ----- */
+  a { color: #6ab0f5; &:hover { color: #90c8ff; } }
+
+  /* keep social icon colours */
+  .author__urls a,
+  .page__footer a { color: inherit; }
+
+  /* ----- Typography / borders ----- */
+  hr { border-top-color: #333; }
+
+  .page__content h2 { border-bottom-color: #333; }
+
+  abbr[title], abbr[data-original-title] { border-bottom-color: #555; }
+
+  blockquote { border-left-color: #444; }
+
+  /* ----- Code ----- */
+  p > code, a > code, li > code, figcaption > code, td > code {
+    background: #2a2a2a;
+    border-color: #3a3a3a;
+    color: #e0e0e0;
+  }
+
+  /* ----- Archive / publications page ----- */
+  .archive__subtitle {
+    color: #aaa;
+    border-bottom-color: #333;
+  }
+
+  .archive__item-title a { color: #6ab0f5; }
+  .archive__item-excerpt { color: #aaa; }
+
+  /* ----- Pagination ----- */
+  .pagination--pager {
+    color: #aaa;
+    border-color: #333;
+    &:hover { color: #6ab0f5; }
+  }
+
+  /* ----- Nav sub-title (toc etc.) ----- */
+  .nav__sub-title { border-bottom-color: #333; }
+
+  .toc {
+    background: #252525;
+    border-color: #333;
+
+    .nav__title { background: #333; }
+  }
+
+  .toc__menu a {
+    color: #aaa;
+    border-bottom-color: #333;
+    &:hover { color: #fff; background: #2e2e2e; }
+  }
+
+  /* ===== CV classes ===== */
+  .cv-section-title {
+    color: #6ab0f5;
+    border-bottom-color: #6ab0f5;
+  }
+
+  .cv-role  { color: #e4e4e4; }
+  .cv-date  { color: #999; }
+  .cv-org   { color: #aaa; }
+  .cv-bullets { color: #ccc; }
+  .cv-skill-label { color: #e0e0e0; }
+
+  /* ===== Project tags ===== */
+  .proj-tag {
+    background: #1e3048 !important;
+    color: #90c4f8 !important;
+    border: 1px solid #2a4f7a !important;
+  }
+
+  /* ===== Inline-style overrides ===== */
+
+  /* light card / image container backgrounds */
+  *[style*="background:#f8f8f8"] { background-color: #252525 !important; }
+  *[style*="background: #f8f8f8"] { background-color: #252525 !important; }
+  *[style*="background:#f0f4ff"] { background-color: #1e2a3a !important; }
+  *[style*="background: #f0f4ff"] { background-color: #1e2a3a !important; }
+  *[style*="background:#fff"] { background-color: #252525 !important; }
+  *[style*="background: #fff"] { background-color: #252525 !important; }
+  *[style*="background:white"] { background-color: #252525 !important; }
+
+  /* common light borders */
+  *[style*="border:1px solid #eee"]    { border-color: #383838 !important; }
+  *[style*="border: 1px solid #eee"]   { border-color: #383838 !important; }
+  *[style*="border:1px solid #e5e7eb"] { border-color: #383838 !important; }
+  *[style*="border:1px solid #d0ddf7"] { border-color: #2a4a6a !important; }
+  *[style*="border:1px solid #e0e0e0"] { border-color: #383838 !important; }
+  *[style*="border: 1px solid #e0e0e0"] { border-color: #383838 !important; }
+
+  /* dark text colors used in inline styles → lighten them */
+  .page__content *[style*="color:#1a1a1a"],
+  .page__content *[style*="color: #1a1a1a"] { color: #e4e4e4 !important; }
+
+  .page__content *[style*="color:#333"],
+  .page__content *[style*="color: #333"]   { color: #d4d4d4 !important; }
+
+  .page__content *[style*="color:#444"],
+  .page__content *[style*="color: #444"]   { color: #ccc !important; }
+
+  .page__content *[style*="color:#555"],
+  .page__content *[style*="color: #555"]   { color: #bbb !important; }
+
+  .page__content *[style*="color:#666"],
+  .page__content *[style*="color: #666"]   { color: #aaa !important; }
+
+  /* blue accent links in inline styles */
+  .page__content a[style*="color:#2a6ebb"],
+  .page__content a[style*="color: #2a6ebb"] { color: #6ab0f5 !important; }
+
+  /* publication / about.md card wrappers */
+  .page__content *[style*="font-style:italic"][style*="color:#555"],
+  .page__content *[style*="color:#555; font-size"] { color: #bbb !important; }
+
+  /* talks page, CV bullet text */
+  .page__content *[style*="color:#333; font-size"] { color: #d4d4d4 !important; }
+}

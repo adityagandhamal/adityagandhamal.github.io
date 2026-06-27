@@ -29,4 +29,43 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Dark mode: apply saved theme before first paint to prevent flash -->
+<script>
+(function() {
+  if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<!-- Dark mode toggle logic -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var btn = document.getElementById('dark-mode-toggle');
+  if (!btn) return;
+
+  function isDark() {
+    return document.documentElement.getAttribute('data-theme') === 'dark';
+  }
+
+  function updateBtn() {
+    btn.textContent = isDark() ? '☀️' : '🌙';
+    btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+
+  updateBtn();
+
+  btn.addEventListener('click', function () {
+    if (isDark()) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.removeItem('theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+    updateBtn();
+  });
+});
+</script>
+
 <!-- end custom head snippets -->
