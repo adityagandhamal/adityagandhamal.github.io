@@ -21,7 +21,7 @@ repository               : "adityagandhamal/adityagandhamal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile.jpg"
   name             : "Aditya Gandhamal" #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Research Fellow at Sarvam AI. Computer Vision & Vision-Language Models."
