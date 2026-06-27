@@ -75,7 +75,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
 
   <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">CoLoRA: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation</p>
-    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal, Suresh Sundaram</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</p>
     <a href="https://aniruddhsikdar1.github.io/publications/colora/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
