@@ -21,7 +21,7 @@ My work sits at the intersection of **robust perception**, **open-world learning
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2026</span>
-      <span style="font-size:0.9em; color:#222;"><strong>CoLoRA</strong> accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
+      <span style="font-size:0.9em; color:#222;">Our paper <strong>CoLoRA</strong> accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
@@ -75,7 +75,7 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
   <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">CoLoRA: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation</p>
-    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar, Aditya Gandhamal, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</p>
     <a href="https://aniruddhsikdar1.github.io/publications/colora/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
