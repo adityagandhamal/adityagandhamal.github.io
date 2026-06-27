@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-06-02-aethervision-bench
 date: 2025-06-01
 venue: 'Workshop on Foundation Models Meet Embodied Agents (FMEA) at CVPR 2025'
-authors: 'Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram'
+authors: 'Aniruddh Sikdar*, Aditya Gandhamal*, Dr. Suresh Sundaram'
 abstract: 'Multimodal benchmark evaluating open-vocabulary segmentation models across RGB-IR modalities and aerial-to-ground perspectives including drone imagery, BEV, and ground vehicles in open-world settings.'
 paperurl: ''
 codeurl: ''
