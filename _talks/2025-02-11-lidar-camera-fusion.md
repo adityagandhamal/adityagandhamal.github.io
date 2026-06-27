@@ -23,7 +23,7 @@ Discussed real-world applications in autonomous driving and robotics, key challe
 
 **Glimpses**
 
-<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:0.8em;">
-  <img src="/images/talks/lidar-talk-1.jpg" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:cover;" alt="Talk glimpse 1">
-  <img src="/images/talks/lidar-talk-2.png" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:cover;" alt="Talk glimpse 2">
+<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:0.8em; align-items:flex-start;">
+  <img src="/images/talks/lidar-talk-1.jpg" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:contain;" alt="Talk glimpse 1">
+  <img src="/images/talks/lidar-talk-2.png" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:contain;" alt="Talk glimpse 2">
 </div>
