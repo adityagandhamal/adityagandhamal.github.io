@@ -27,7 +27,7 @@ At IISc, I worked on adapting CLIP for open-vocabulary semantic segmentation usi
 
 - **OV-COAST**: Cost Aggregation with Optimal Transport for Open-Vocabulary Semantic Segmentation — *T4V Workshop, CVPR 2025*
 - **AetherVision-Bench**: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation — *FMEA Workshop, CVPR 2025*
-- **CoLoRA**: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation — *Under Review, IROS 2026*
+- **CoLoRA**: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation — *Accepted, IROS 2026*
 - **T-CAT**: Toggle-Tune Based Prompt Learning for Open-Vocabulary Semantic Segmentation — *Under Review, TMLR*
 - **Pixel2Perspective**: Benchmark for Multi-Modal and Multi-View Generalization in VLMs — *Under Review, IEEE TAI*
 - **IndraEye**: Infrared Electro-Optical UAV-based Perception Dataset — *arXiv preprint*

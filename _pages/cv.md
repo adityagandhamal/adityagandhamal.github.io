@@ -27,7 +27,7 @@ Work Experience
   * Developed cost aggregation architectures using Optimal Transport and Masked Image Modelling with LoRA, CoOp, and CoCoOp
   * Built multimodal benchmarks for segmentation across EO-IR/Sim-2-Real, aerial-to-ground perspectives (drone, BEV, ground vehicles)
   * Developed CLIPcam (PyPI); delivered 3D Vision talk at IISc Faculty Development Program
-  * 2 papers at CVPR Workshops 2025; 1 under review at IROS 2026; 2 journal papers under review (TMLR, IEEE TAI)
+  * 2 papers at CVPR Workshops 2025; 1 paper accepted at IROS 2026; 2 journal papers under review (TMLR, IEEE TAI)
 
 * **Deep Learning and Image Processing Intern** — GalaxEye Space, Bangalore *(April 2024 – July 2024)*
   * SAR-Optical coregistration and data fusion for drone-based SAR platform; failure-case analysis using Lucas-Kanade Optical Flow
