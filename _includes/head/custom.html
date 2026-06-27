@@ -38,34 +38,83 @@
 })();
 </script>
 
-<!-- Dark mode toggle logic -->
+<!-- Dark mode toggle + inline-style colour transform -->
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var btn = document.getElementById('dark-mode-toggle');
-  if (!btn) return;
+(function () {
+  /* Map of dark inline colours → light equivalents */
+  var DARK_TO_LIGHT = {
+    'black':'#e4e4e4','#000':'#e4e4e4','#000000':'#e4e4e4',
+    '#1a1a1a':'#e4e4e4',
+    '#222':'#e0e0e0','#222222':'#e0e0e0',
+    '#333':'#d4d4d4','#333333':'#d4d4d4',
+    '#444':'#cccccc','#444444':'#cccccc',
+    '#555':'#bbbbbb','#555555':'#bbbbbb',
+    '#666':'#aaaaaa','#666666':'#aaaaaa',
+    '#777':'#999999','#777777':'#999999',
+    '#2a6ebb':'#6ab0f5'
+  };
+
+  /* Escape # for use in RegExp */
+  function esc(s) { return s.replace('#','\\#'); }
+
+  /* Transform every [style] element's colour values */
+  function transformStyles(toLight) {
+    document.querySelectorAll('[style]').forEach(function (el) {
+      if (toLight) {
+        /* Store original once */
+        if (!el.dataset.dmOrig) el.dataset.dmOrig = el.getAttribute('style');
+        var s = el.dataset.dmOrig;
+        Object.keys(DARK_TO_LIGHT).forEach(function (dark) {
+          s = s.replace(
+            new RegExp('(color:\\s*)' + esc(dark) + '(?=[;\\s"\'\\)]|$)', 'gi'),
+            '$1' + DARK_TO_LIGHT[dark]
+          );
+        });
+        el.setAttribute('style', s);
+      } else {
+        /* Restore original */
+        if (el.dataset.dmOrig) {
+          el.setAttribute('style', el.dataset.dmOrig);
+          delete el.dataset.dmOrig;
+        }
+      }
+    });
+  }
 
   function isDark() {
     return document.documentElement.getAttribute('data-theme') === 'dark';
   }
 
-  function updateBtn() {
+  function applyTheme(dark) {
+    if (dark) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+    transformStyles(dark);
+  }
+
+  function updateBtn(btn) {
     btn.textContent = isDark() ? '☀️' : '🌙';
     btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode');
   }
 
-  updateBtn();
+  document.addEventListener('DOMContentLoaded', function () {
+    /* Apply inline transforms now that DOM is ready */
+    if (isDark()) transformStyles(true);
 
-  btn.addEventListener('click', function () {
-    if (isDark()) {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.removeItem('theme');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
-    }
-    updateBtn();
+    var btn = document.getElementById('dark-mode-toggle');
+    if (!btn) return;
+    updateBtn(btn);
+
+    btn.addEventListener('click', function () {
+      var goingDark = !isDark();
+      applyTheme(goingDark);
+      localStorage.setItem('theme', goingDark ? 'dark' : 'light');
+      updateBtn(btn);
+    });
   });
-});
+})();
 </script>
 
 <!-- end custom head snippets -->

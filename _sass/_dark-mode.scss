@@ -12,40 +12,26 @@
   line-height: 1;
   color: $masthead-link-color;
   transition: color 0.2s;
-
   &:hover { color: $masthead-link-color-hover; }
 }
 
 html[data-theme="dark"] {
 
-  body {
-    background-color: #1a1a1a;
-    color: #d4d4d4;
-  }
+  /* Core */
+  body { background-color: #1a1a1a; color: #d4d4d4; }
 
-  /* ----- Masthead / nav ----- */
-  .masthead {
-    background: #1e1e1e;
-    border-bottom-color: #2e2e2e;
-  }
+  /* Masthead */
+  .masthead { background: #1e1e1e; border-bottom-color: #2e2e2e; }
 
   .greedy-nav {
     background: #1e1e1e;
-
-    a {
-      color: #c8c8c8;
-      &:hover { color: #fff; }
-    }
-
+    a { color: #c8c8c8; &:hover { color: #fff; } }
     button { background-color: #333; }
-
     .hidden-links {
       background: #252525;
       border-color: #383838;
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-
       &:after { border-color: #252525 transparent; }
-
       a:hover { background: #333; color: #fff; }
       li { border-bottom-color: #333; }
     }
@@ -53,85 +39,46 @@ html[data-theme="dark"] {
 
   #dark-mode-toggle { color: #c8c8c8; &:hover { color: #fff; } }
 
-  /* ----- Sidebar ----- */
+  /* Sidebar — keep background same as body so no visible panel */
   .sidebar { background-color: #1a1a1a; }
-
   .author__avatar img { border-color: #3a3a3a; }
+  .author__name, .author__bio, .author__pronouns { color: #d4d4d4; }
 
-  /* On small screens .author__urls is a popup box — style it dark.
-     On desktop ($large+) the theme resets it to transparent/no-border,
-     so we must restore those resets or a visible box appears. */
-  .author__urls {
-    background: #252525;
-    border-color: #383838;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  /* author__urls is transparent on desktop; only needs dark styling on
+     mobile where it appears as an absolute-positioned popup box */
+  .author__urls a { color: #c8c8c8; }
 
-    &:after { border-color: #252525 transparent; }
-    a { color: #c8c8c8; }
-
-    @include breakpoint($large) {
-      background: transparent;
-      border: 0;
-      box-shadow: none;
-    }
-  }
-
-  .author__name,
-  .author__bio,
-  .author__pronouns { color: #d4d4d4; }
-
-  /* ----- Footer ----- */
+  /* Footer */
   .page__footer {
     background-color: #1e1e1e;
     border-top-color: #2e2e2e;
     color: #888;
-
     a { color: #888; &:hover { color: #aaa; } }
     .fas, .fab, .far, .fal { color: #888; }
   }
 
-  /* ----- Global links ----- */
+  /* Global links */
   a { color: #6ab0f5; &:hover { color: #90c8ff; } }
+  .author__urls a, .page__footer a { color: inherit; }
 
-  /* social / footer links inherit their icon colour */
-  .author__urls a,
-  .page__footer a { color: inherit; }
-
-  /* ----- Typography / borders ----- */
+  /* Typography */
   hr { border-top-color: #333; }
   .page__content h2 { border-bottom-color: #333; }
-  abbr[title], abbr[data-original-title] { border-bottom-color: #555; }
   blockquote { border-left-color: #444; }
 
-  /* ----- Code ----- */
+  /* Code */
   p > code, a > code, li > code, figcaption > code, td > code {
     background: #2a2a2a;
     border-color: #3a3a3a;
     color: #e0e0e0;
   }
 
-  /* ----- Archive / publications page ----- */
+  /* Archive */
   .archive__subtitle { color: #aaa; border-bottom-color: #333; }
   .archive__item-title a { color: #6ab0f5; }
   .archive__item-excerpt { color: #aaa; }
 
-  /* ----- Pagination ----- */
-  .pagination--pager {
-    color: #aaa;
-    border-color: #333;
-    &:hover { color: #6ab0f5; }
-  }
-
-  /* ----- ToC ----- */
-  .nav__sub-title { border-bottom-color: #333; }
-  .toc { background: #252525; border-color: #333; .nav__title { background: #333; } }
-  .toc__menu a {
-    color: #aaa;
-    border-bottom-color: #333;
-    &:hover { color: #fff; background: #2e2e2e; }
-  }
-
-  /* ===== CV classes ===== */
+  /* CV classes */
   .cv-section-title { color: #6ab0f5; border-bottom-color: #6ab0f5; }
   .cv-role         { color: #e4e4e4; }
   .cv-date         { color: #999; }
@@ -139,58 +86,78 @@ html[data-theme="dark"] {
   .cv-bullets      { color: #ccc; }
   .cv-skill-label  { color: #e0e0e0; }
 
-  /* ===== Project tags ===== */
+  /* Project tags */
   .proj-tag {
     background: #1e3048 !important;
     color: #90c4f8 !important;
     border: 1px solid #2a4f7a !important;
   }
 
-  /* ===== Inline background overrides ===== */
+  /* about.md / projects.md <style>-block classes */
+  .sp-card         { border-bottom-color: #383838 !important; }
+  .sp-motivation   { color: #bbb !important; border-left-color: #444 !important; }
+  .sp-caption      { color: #999 !important; }
+  .sp-grid-item img { background: #252525 !important; border-color: #383838 !important; }
+
+  /* ── Inline background overrides ── */
   *[style*="background:#f8f8f8"],
-  *[style*="background: #f8f8f8"]  { background-color: #252525 !important; }
-
+  *[style*="background: #f8f8f8"]   { background-color: #252525 !important; }
+  *[style*="background:#f4f4f4"],
+  *[style*="background: #f4f4f4"]   { background-color: #2a2a2a !important; }
   *[style*="background:#f0f4ff"],
-  *[style*="background: #f0f4ff"]  { background-color: #1e2a3a !important; }
-
+  *[style*="background: #f0f4ff"]   { background-color: #1e2a3a !important; }
   *[style*="background:#fff"],
   *[style*="background: #fff"],
-  *[style*="background:white"]     { background-color: #252525 !important; }
+  *[style*="background:white"]       { background-color: #252525 !important; }
 
-  /* ===== Inline border overrides ===== */
+  /* ── Inline border overrides ── */
+  *[style*="border-bottom: 1px solid #f0f0f0"],
+  *[style*="border-bottom:1px solid #f0f0f0"]   { border-bottom-color: #383838 !important; }
   *[style*="border:1px solid #eee"],
   *[style*="border: 1px solid #eee"],
   *[style*="border:1px solid #e5e7eb"],
   *[style*="border:1px solid #e0e0e0"],
-  *[style*="border: 1px solid #e0e0e0"] { border-color: #383838 !important; }
+  *[style*="border: 1px solid #e0e0e0"]          { border-color: #383838 !important; }
+  *[style*="border:1px solid #d0ddf7"]            { border-color: #2a4a6a !important; }
+  /* news timeline vertical line */
+  *[style*="border-left: 2px solid #d0d8e8"],
+  *[style*="border-left:2px solid #d0d8e8"]      { border-left-color: #3a4a6a !important; }
+  /* news dot white ring — change to page background so gap disappears into bg */
+  *[style*="border:2px solid #fff"],
+  *[style*="border: 2px solid #fff"]             { border-color: #1a1a1a !important; }
 
-  *[style*="border:1px solid #d0ddf7"]  { border-color: #2a4a6a !important; }
+  /* ── Inline text-color overrides (global, !important beats inline styles) ── */
+  *[style*="color:black"],  *[style*="color: black"]  { color: #e4e4e4 !important; }
+  *[style*="color:#000"],   *[style*="color: #000"]   { color: #e4e4e4 !important; }
+  *[style*="color:#000000"],*[style*="color: #000000"]{ color: #e4e4e4 !important; }
+  *[style*="color:#1a1a1a"],*[style*="color: #1a1a1a"]{ color: #e4e4e4 !important; }
+  *[style*="color:#222"],   *[style*="color: #222"]   { color: #e0e0e0 !important; }
+  *[style*="color:#222222"],*[style*="color: #222222"]{ color: #e0e0e0 !important; }
+  *[style*="color:#333"],   *[style*="color: #333"]   { color: #d4d4d4 !important; }
+  *[style*="color:#333333"],*[style*="color: #333333"]{ color: #d4d4d4 !important; }
+  *[style*="color:#444"],   *[style*="color: #444"]   { color: #cccccc !important; }
+  *[style*="color:#444444"],*[style*="color: #444444"]{ color: #cccccc !important; }
+  *[style*="color:#555"],   *[style*="color: #555"]   { color: #bbbbbb !important; }
+  *[style*="color:#555555"],*[style*="color: #555555"]{ color: #bbbbbb !important; }
+  *[style*="color:#666"],   *[style*="color: #666"]   { color: #aaaaaa !important; }
+  *[style*="color:#666666"],*[style*="color: #666666"]{ color: #aaaaaa !important; }
+  *[style*="color:#777"],   *[style*="color: #777"]   { color: #999999 !important; }
+  *[style*="color:#777777"],*[style*="color: #777777"]{ color: #999999 !important; }
 
-  /* ===== Inline dark text → light (GLOBAL, covers news, about, CV, etc.) ===== */
-  *[style*="color:black"],
-  *[style*="color: black"],
-  *[style*="color:#000"],
-  *[style*="color: #000"]     { color: #e4e4e4 !important; }
-
-  *[style*="color:#1a1a1a"],
-  *[style*="color: #1a1a1a"]  { color: #e4e4e4 !important; }
-
-  *[style*="color:#222"],
-  *[style*="color: #222"]     { color: #e0e0e0 !important; }
-
-  *[style*="color:#333"],
-  *[style*="color: #333"]     { color: #d4d4d4 !important; }
-
-  *[style*="color:#444"],
-  *[style*="color: #444"]     { color: #ccc !important; }
-
-  *[style*="color:#555"],
-  *[style*="color: #555"]     { color: #bbb !important; }
-
-  *[style*="color:#666"],
-  *[style*="color: #666"]     { color: #aaa !important; }
-
-  /* blue accent links in inline styles */
+  /* blue accent links — keep blue but lightened */
   a[style*="color:#2a6ebb"],
   a[style*="color: #2a6ebb"]  { color: #6ab0f5 !important; }
+  *[style*="color:#2a6ebb"]:not(a),
+  *[style*="color: #2a6ebb"]:not(a) { color: #6ab0f5 !important; }
+}
+
+/* author__urls popup: only darken on small screens
+   (on desktop the theme makes it position:relative / transparent) */
+@media screen and (max-width: 924px) {
+  html[data-theme="dark"] .author__urls {
+    background: #252525;
+    border-color: #383838;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    &:after { border-color: #252525 transparent; }
+  }
 }
