@@ -62,3 +62,55 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
   </div>
 </div>
+
+## Selected Publications
+
+<div style="margin-top: 0.6em;">
+
+  <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">CoLoRA: Optimal Transport Meets LoRA for Multi-Domain Open-Vocabulary Segmentation</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">IROS 2026</p>
+    <a href="https://aniruddhsikdar1.github.io/publications/colora/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+  </div>
+
+  <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">OV-COAST: Cost Aggregation with Optimal Transport for Open-Vocabulary Semantic Segmentation</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Suresh Sundaram</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">T4V Workshop, CVPR 2025</p>
+    <a href="https://aniruddhsikdar1.github.io/publications/ov-coast/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+  </div>
+
+  <div style="margin-bottom: 0.4em;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">AetherVision-Bench: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation across Aerial and Ground Perspectives</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">FMEA Workshop, CVPR 2025</p>
+  </div>
+
+</div>
+
+<p style="margin-top:0.8em;"><a href="/publications/" style="font-size:0.85em; color:#2a6ebb; font-weight:600;">See all publications →</a></p>
+
+## Selected Projects
+
+<div style="margin-top: 0.6em;">
+
+  <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/clip_cam" style="color:#1a1a1a; text-decoration:none;">CLIPcam</a> &nbsp;<code style="font-size:0.82em; background:#f4f4f4; padding:1px 6px; border-radius:3px; font-weight:400;">pip install clip-cam</code></p>
+    <p style="font-size:0.88em; color:#444; margin:0;">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for explainability.</p>
+    <div style="margin-top:8px;">
+      <a href="https://github.com/adityagandhamal/clip_cam" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
+      &nbsp;&nbsp;
+      <a href="https://pypi.org/project/clip-cam/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">PyPI →</a>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 0.4em;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="color:#1a1a1a; text-decoration:none;">Prompt Learning with CLIP for Open Vocabulary Segmentation</a></p>
+    <p style="font-size:0.88em; color:#444; margin:0;">Implemented and ablated prompt learning techniques for CAT-Seg (CVPR'24) integrating Context Optimization, Conditional Context Optimization, and Textual-based Class-aware Prompting; evaluated across the MESS benchmark covering 20 multi-domain datasets.</p>
+    <div style="margin-top:8px;">
+      <a href="https://github.com/adityagandhamal/prompt-learning-ovss" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
+    </div>
+  </div>
+
+</div>
