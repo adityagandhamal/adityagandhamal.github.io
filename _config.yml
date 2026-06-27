@@ -78,10 +78,10 @@ author:
 publication_category:
   conferences:
     title: 'Conference Papers'
-  manuscripts:
-    title: 'Preprints / Under Review'
   blog:
     title: 'Technical Blog'
+  manuscripts:
+    title: 'Preprints / Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
