@@ -25,14 +25,8 @@
     <p style="font-weight: 700; font-size: 0.97em; margin: 0 0 4px 0; line-height: 1.45; color: #1a1a1a;">{{ post.title }}</p>
     {% if post.authors %}<p style="color: #444; font-size: 0.87em; margin: 0 0 3px 0;">{{ post.authors }}</p>{% endif %}
     <p style="font-style: italic; color: #555; font-size: 0.87em; margin: 0 0 10px 0;">{{ post.venue }}</p>
-    {% if post.paperurl %}
-    <a href="{{ post.paperurl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600; margin-right:14px;">arXiv →</a>
-    {% endif %}
     {% if post.projecturl %}
-    <a href="{{ post.projecturl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600; margin-right:14px;">Project Page →</a>
-    {% endif %}
-    {% if post.codeurl %}
-    <a href="{{ post.codeurl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Code →</a>
+    <a href="{{ post.projecturl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
     {% endif %}
   </div>
 </div>
