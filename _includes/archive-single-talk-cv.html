@@ -1,5 +1,11 @@
-<li style="margin-bottom: 0.7em; font-size: 0.88em; line-height: 1.65; color: #333;">
+<li style="margin-bottom: 0.9em; font-size: 0.88em; line-height: 1.65; color: #333;">
   <strong>{{ post.title }}</strong>{% if post.slides %} &nbsp;|&nbsp; <a href="{{ post.slides }}" style="color:#2a6ebb; text-decoration:none; font-weight:600;">slides</a>{% endif %} &mdash; {{ post.location }}<br>
   <em>{{ post.venue }}</em> &nbsp;·&nbsp; {{ post.date | date: "%b %d, %Y" }}
-  {% if post.excerpt %}<br>{{ post.excerpt }}{% endif %}
+  {% if post.cv_bullets %}
+  <ul style="margin: 4px 0 0 0; padding-left: 1.2em;">
+    {% for bullet in post.cv_bullets %}<li style="margin-bottom:3px;">{{ bullet }}</li>{% endfor %}
+  </ul>
+  {% elsif post.excerpt %}
+  <br>{{ post.excerpt }}
+  {% endif %}
 </li>
