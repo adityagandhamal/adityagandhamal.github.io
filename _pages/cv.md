@@ -133,7 +133,8 @@ redirect_from:
   </div>
   <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: <a href="https://aero.iisc.ac.in/people/radhakantpadhi/">Dr. Radhakant Padhi</a></div>
   <ul class="cv-bullets">
-    <li>Automated drug delivery systems (Artificial Pancreas); built a meal-detection pipeline (SAM + ResNet50 + fuzzy matching) achieving 91% accuracy on carbohydrate estimation.</li>
+    <li>Worked on automation of drug delivery systems (Artificial Pancreas) under the guidance of <a href="https://aero.iisc.ac.in/people/radhakantpadhi/">Dr. Radhakant Padhi</a>.</li>
+    <li>Built a meal-detection pipeline (SAM + ResNet50 + fuzzy matching) for carbohydrate estimation, achieving 91% accuracy.</li>
     <li>Presented findings to a clinical panel from Ramaiah Hospital and Madras Diabetes Research Foundation.</li>
   </ul>
 </div>
@@ -145,7 +146,9 @@ redirect_from:
   </div>
   <div class="cv-org">Remote</div>
   <ul class="cv-bullets">
-    <li>Contributed to Ivy (cross-framework ML transpilation); functional APIs, bug fixes, and documentation across PyTorch, TensorFlow, JAX, NumPy. Recognized as <strong>Top Contributor</strong>.</li>
+    <li>Contributed to Ivy, Unify's cross-framework ML transpilation framework.</li>
+    <li>Created/reviewed PRs (functional APIs, transpilation utilities, bug fixes) across PyTorch, TensorFlow, JAX, NumPy backends.</li>
+    <li>Recognized as a <strong>Top Contributor</strong>.</li>
   </ul>
 </div>
 
@@ -156,7 +159,9 @@ redirect_from:
   </div>
   <div class="cv-org">Remote &nbsp;·&nbsp; Advisor: <a href="https://sites.google.com/view/nitkkrsarikajain/home?authuser=0">Dr. Sarika Jain</a></div>
   <ul class="cv-bullets">
-    <li>Built a Legal Knowledge Graph from Indian Supreme Court filings; benchmarked GraphSAGE, GAT, GCN vs. RGCN on citation prediction and case similarity — GCN improved AUC by ~40% and ~10% respectively.</li>
+    <li>Worked on Link Prediction on legal documents under the supervision of <a href="https://sites.google.com/view/nitkkrsarikajain/home?authuser=0">Dr. Sarika Jain</a>.</li>
+    <li>Built a Legal Knowledge Graph from Supreme Court filings, framing citation prediction and case similarity as link-prediction tasks.</li>
+    <li>Benchmarked GraphSAGE, GAT, GCN vs. RGCN; GCN improved AUC ~40% (case similarity) and ~10% (citation prediction).</li>
   </ul>
 </div>
 
@@ -167,7 +172,9 @@ redirect_from:
   </div>
   <div class="cv-org">Pune &nbsp;·&nbsp; Mentor: Col. (Dr.) K. Joshil Raj</div>
   <ul class="cv-bullets">
-    <li>Satellite imagery road-network segmentation (U-Net + ResNet34) achieving IoU 0.78 / 0.73 on urban / border roads; built an interactive GUI for Army personnel.</li>
+    <li>Devised satellite imagery feature extraction techniques for road network identification, supporting urban planning and border surveillance, under Col. (Dr.) K. Joshil Raj.</li>
+    <li>Curated annotated satellite imagery datasets and developed U-Net segmentation models for road-network extraction, achieving 0.78 / 0.73 IoU on urban / border roads.</li>
+    <li>Developed an interactive GUI enabling Army personnel to experiment with the models.</li>
   </ul>
 </div>
 
