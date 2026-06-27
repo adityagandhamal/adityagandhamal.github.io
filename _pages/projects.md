@@ -34,10 +34,26 @@ author_profile: true
 <div class="proj-card">
   <p class="proj-title">Prompt Learning with CLIP for Open Vocabulary Segmentation</p>
   <span class="proj-tag">Open-Vocabulary</span><span class="proj-tag">Prompt Learning</span><span class="proj-tag">Segmentation</span>
-  <p class="proj-desc">Implemented and ablated prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (CoOp), Conditional Context Optimization (CoCoOp), and Textual-based Class-aware Prompting. Conducted ablation studies across the MESS benchmark covering 20 multi-domain datasets.</p>
-  <div class="proj-media">
-    <img src="/images/projects/prompt-learning.png" alt="Prompt learning results" onerror="this.style.display='none'">
-    <p class="proj-media-caption">Ablation results across MESS benchmark datasets.</p>
+  <p class="proj-desc">Implemented and ablated prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (CoOp), Conditional Context Optimization (CoCoOp), and Textual-based Class-aware Prompting (TCP). Conducted ablation studies across the MESS benchmark covering 20 multi-domain datasets.</p>
+  <div class="proj-media" style="margin-bottom:6px;">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; max-width:620px;">
+      <div>
+        <img src="/images/projects/prompr-learning-base-CATSeg-CVPR24.png" alt="CAT-Seg baseline" style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+        <p class="proj-media-caption" style="margin-top:3px;">Base: CAT-Seg (CVPR'24)</p>
+      </div>
+      <div>
+        <img src="/images/projects/prompt-learning-CoOp-IJCV22.png" alt="CoOp" style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+        <p class="proj-media-caption" style="margin-top:3px;">+ CoOp (IJCV'22)</p>
+      </div>
+      <div>
+        <img src="/images/projects/prompt-learning-CoCoOp-CVPR22.png" alt="CoCoOp" style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+        <p class="proj-media-caption" style="margin-top:3px;">+ CoCoOp (CVPR'22)</p>
+      </div>
+      <div>
+        <img src="/images/projects/prompt-learning-TCP-CVPR24.png" alt="TCP" style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+        <p class="proj-media-caption" style="margin-top:3px;">+ TCP (CVPR'24)</p>
+      </div>
+    </div>
   </div>
   <a href="https://github.com/adityagandhamal/prompt-learning-ovss" class="proj-link">GitHub →</a>
 </div>
@@ -58,10 +74,33 @@ author_profile: true
   <span class="proj-tag">Time-Series</span><span class="proj-tag">LSTM</span><span class="proj-tag">Satellite</span>
   <p class="proj-desc">Developed an LSTM-based time-series forecasting model trained on 18 days of telemetry data to predict satellite orbital trajectories for the next 7 days. Validated through comparative analysis and trajectory visualization.</p>
   <div class="proj-media">
-    <img src="/images/projects/satpo.gif" alt="SatPO trajectory forecast" onerror="this.style.display='none'">
-    <p class="proj-media-caption">Predicted vs. actual satellite orbital trajectory over a 7-day window.</p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; max-width:620px;">
+      <div>
+        <video autoplay loop muted playsinline style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+          <source src="/images/projects/satpo1.mp4" type="video/mp4">
+        </video>
+        <p class="proj-media-caption" style="margin-top:3px;">Trajectory prediction — run 1</p>
+      </div>
+      <div>
+        <video autoplay loop muted playsinline style="width:100%; border-radius:5px; border:1px solid #e0e0e0;">
+          <source src="/images/projects/satpo2.mp4" type="video/mp4">
+        </video>
+        <p class="proj-media-caption" style="margin-top:3px;">Trajectory prediction — run 2</p>
+      </div>
+    </div>
   </div>
   <a href="https://github.com/adityagandhamal" class="proj-link">GitHub →</a>
+</div>
+
+<div class="proj-card">
+  <p class="proj-title">Road Lane Detection</p>
+  <span class="proj-tag">Computer Vision</span><span class="proj-tag">OpenCV</span><span class="proj-tag">Python</span>
+  <p class="proj-desc">Designed a real-time lane detection pipeline for road imagery and video using OpenCV. Applies edge detection, Hough transforms, and region-of-interest masking to identify and overlay lane markings — demonstrated on Manhattan street footage and highway sequences.</p>
+  <div class="proj-media">
+    <img src="/images/projects/road-lane-1.gif" alt="Road lane detection demo" style="width:100%; max-width:600px; border-radius:5px; border:1px solid #e0e0e0;">
+    <p class="proj-media-caption" style="margin-top:3px;">Real-time lane detection on Manhattan street footage.</p>
+  </div>
+  <a href="https://github.com/adityagandhamal/road-lane-detection" class="proj-link">GitHub →</a>
 </div>
 
 <div class="proj-card">
