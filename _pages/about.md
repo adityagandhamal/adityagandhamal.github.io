@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on large-scale data generation for pre-training and SFT of Vision-Language Models. Previously, I was a Pre-Doctoral Researcher at the [Artificial Intelligence and Robotics Laboratory (AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/), Indian Institute of Science, where I worked on open-vocabulary learning and domain generalization problems under the guidance of [Prof. Suresh Sundaram](https://aero.iisc.ac.in/people/sureshsundaram/). I also had a brief stint as an intern at [GalaxEye Space](https://galaxeye.space/), where I contributed to [ISRO's POEM-4 Mission](#) by developing an image co-registration algorithm to register SAR and optical data of a captured scene.
+I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on large-scale data generation for pre-training and SFT of Vision-Language Models. Previously, I was a Pre-Doctoral Researcher at the [Artificial Intelligence and Robotics Laboratory (AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/), Indian Institute of Science, where I worked on open-vocabulary learning and domain generalization problems under the guidance of [Prof. Suresh Sundaram](https://aero.iisc.ac.in/people/sureshsundaram/). I also had a brief stint as an intern at [GalaxEye Space](https://galaxeye.space/), where I contributed to [ISRO's POEM-4 Mission](https://www.isro.gov.in/POEM_4_Payloads_spadex.html) by developing an image co-registration algorithm to register SAR and optical data of a captured scene.
 
 ## Research Interests
 
@@ -15,7 +15,7 @@ My research interests span **robust perception**, **open-world learning**, and *
 
 - **Robust Perception** — Built multimodal benchmarks across EO-IR/Sim-2-Real and aerial-to-ground perspectives to evaluate segmentation robustness in open-world settings.
 - **Open-World Learning** — Adapted CLIP for open-vocabulary semantic segmentation across unseen categories and novel domains using Optimal Transport and parameter-efficient fine-tuning.
-- **Multi-Sensor Fusion** — Developed SAR-optical coregistration and data fusion pipelines; designed and deployed a co-registration algorithm aboard ISRO's POEM-4 Mission.
+- **Multi-Sensor Fusion** — Developed SAR-optical coregistration and data fusion pipelines; designed and deployed a co-registration algorithm aboard [ISRO's POEM-4 Mission](https://www.isro.gov.in/POEM_4_Payloads_spadex.html).
 
 ## News / Updates
 
@@ -38,7 +38,7 @@ My research interests span **robust perception**, **open-world learning**, and *
   </tr>
   <tr>
     <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Jul 2024</b></td>
-    <td style="padding: 6px 0;">Co-registration algorithm deployed aboard <a href="#">ISRO's POEM-4 Mission</a> (GLX-SQ payload, <a href="https://galaxeye.space/">GalaxEye Space</a>).</td>
+    <td style="padding: 6px 0;">Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> (GLX-SQ payload, <a href="https://x.com/GalaxEye/status/1873977161142448443">GalaxEye Space</a>).</td>
   </tr>
   <tr>
     <td style="white-space: nowrap; padding: 6px 16px 6px 0; color: #555; vertical-align: top;"><b>Apr 2024</b></td>
