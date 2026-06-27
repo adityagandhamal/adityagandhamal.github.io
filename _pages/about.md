@@ -21,7 +21,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2026</span>
-      <span style="font-size:0.9em; color:#222;">Our paper <strong>CoLoRA</strong> accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
+      <span style="font-size:0.9em; color:#222;">Our paper <strong>CoLoRA</strong> has been accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
