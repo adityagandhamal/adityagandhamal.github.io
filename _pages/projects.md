@@ -47,7 +47,7 @@ author_profile: true
     <p class="proj-title">PyTorch-RL</p>
     <span class="proj-date">2023</span>
   </div>
-  <span class="proj-tag">Reinforcement Learning</span><span class="proj-tag">PyTorch</span><span class="proj-tag">Bug Fix</span>
+  <span class="proj-tag">Reinforcement Learning</span><span class="proj-tag">PyTorch</span><span class="proj-tag">Bug Fix</span><span class="proj-tag">Feature Extension</span>
   <div class="pr-entry">
     <strong>PR #682 — RewardScaling: standard_normal support</strong>
     <a href="https://github.com/pytorch/rl/pull/682" class="pr-badge">PR</a><br>
@@ -85,7 +85,7 @@ author_profile: true
     <span class="proj-date">2025</span>
   </div>
   <span class="proj-tag">Python Package</span><span class="proj-tag">VLM Explainability</span><span class="proj-tag">CLIP</span>
-  <p class="proj-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging and trust. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through Grad-CAM-style heatmaps.</p>
+  <p class="proj-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through Grad-CAM-style heatmaps.</p>
   <p class="proj-desc">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for interpretability and debugging.</p>
   <div class="proj-media">
     <img src="/images/projects/clipcam.png" alt="CLIPcam visualization" style="width:100%; max-width:600px; border-radius:6px; border:1px solid #e0e0e0;" onerror="this.style.display='none'">
@@ -101,7 +101,7 @@ author_profile: true
     <span class="proj-date">2024</span>
   </div>
   <span class="proj-tag">Open-Vocabulary</span><span class="proj-tag">Prompt Learning</span><span class="proj-tag">Segmentation</span>
-  <p class="proj-motivation">Fixed-text templates like "a photo of a [CLASS]" are brittle for open-vocabulary segmentation — they fail to capture context or generalise to unseen categories. Prompt learning replaces these with learnable vectors, enabling CLIP-based segmentation models to adapt their textual representations to diverse domains.</p>
+  <p class="proj-motivation">Fixed-text templates like "a photo of a [CLASS]" are brittle for open-vocabulary segmentation — they fail to capture context or generalise to unseen categories. Prompt learning replaces these with learnable vectors, enabling CLIP to adapt its textual representations to diverse domains.</p>
   <p class="proj-desc">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 20 multi-domain datasets.</p>
   <div class="proj-media">
     <div id="pl-show-proj" style="position:relative;width:100%;max-width:580px;height:260px;background:#f8f8f8;border-radius:6px;border:1px solid #e0e0e0;overflow:hidden;">

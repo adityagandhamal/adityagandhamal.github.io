@@ -131,7 +131,7 @@ redirect_from:
     <span class="cv-role">Computer Vision Intern — AI for Healthcare &mdash; <span style="font-weight:400;">Indian Institute of Science</span></span>
     <span class="cv-date">Nov 2023 – Feb 2024</span>
   </div>
-  <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: Dr. Radhakant Padhi</div>
+  <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: <a href="https://aero.iisc.ac.in/people/radhakantpadhi/">Dr. Radhakant Padhi</a></div>
   <ul class="cv-bullets">
     <li>Automated drug delivery systems (Artificial Pancreas); built a meal-detection pipeline (SAM + ResNet50 + fuzzy matching) achieving 91% accuracy on carbohydrate estimation.</li>
     <li>Presented findings to a clinical panel from Ramaiah Hospital and Madras Diabetes Research Foundation.</li>
@@ -154,7 +154,7 @@ redirect_from:
     <span class="cv-role">Research Intern — NLP &mdash; <span style="font-weight:400;">NIT Kurukshetra</span></span>
     <span class="cv-date">Mar 2022 – Aug 2022</span>
   </div>
-  <div class="cv-org">Remote &nbsp;·&nbsp; Advisor: Dr. Sarika Jain</div>
+  <div class="cv-org">Remote &nbsp;·&nbsp; Advisor: <a href="https://sites.google.com/view/nitkkrsarikajain/home?authuser=0">Dr. Sarika Jain</a></div>
   <ul class="cv-bullets">
     <li>Built a Legal Knowledge Graph from Indian Supreme Court filings; benchmarked GraphSAGE, GAT, GCN vs. RGCN on citation prediction and case similarity — GCN improved AUC by ~40% and ~10% respectively.</li>
   </ul>
