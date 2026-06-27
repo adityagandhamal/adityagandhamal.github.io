@@ -104,7 +104,7 @@ redirect_from:
     <span class="cv-role">Pre-Doctoral Researcher &mdash; <a href="https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/" style="font-weight:400; color:#2a6ebb;">AIRL, Indian Institute of Science</a></span>
     <span class="cv-date">Aug 2024 – May 2025</span>
   </div>
-  <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Prof. Suresh Sundaram</a></div>
+  <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Dr. Suresh Sundaram</a></div>
   <ul class="cv-bullets">
     <li>Conducted research on open-vocabulary learning, multi-modal alignment, and domain generalization in VLMs.</li>
     <li>Adapted CLIP for open-vocabulary segmentation using Optimal Transport, Masked Image Modelling, and PeFT (LoRA, Prompt Learning); built multimodal benchmarks (EO-IR / Sim-2-Real / aerial-ground / BEV) for open-world evaluation.</li>
