@@ -11,39 +11,49 @@ I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on la
 
 ## Research Interests
 
-<div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:0.7em;">
+<p style="font-size:0.93em; color:#333; line-height:1.75; margin:0.4em 0 1.6em;">I work on making vision systems generalize — beyond fixed category sets, across sensor modalities, and under conditions unseen at training time. My interests span <strong>open-vocabulary and open-world recognition</strong> (adapting models to novel classes and domains without retraining), <strong>3D visual understanding</strong>, and <strong>multi-modal perception</strong> — fusing cues from cameras, infrared, SAR, and language to build representations that hold up when the world doesn't match the training distribution.</p>
 
-  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
-    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">Sarvam AI</p>
-    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">Research Fellow · 2025–present</p>
-    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">Scaling Vision-Language Models for 22 Indian languages — large-scale data generation for pre-training and SFT, with state-of-the-art results on document understanding benchmarks.</p>
-    <div>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">VLMs</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Multilingual</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Document Understanding</span>
-    </div>
+## Research Trail
+
+<style>
+.trail-scroll { display:flex; gap:14px; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; padding-bottom:10px; margin-top:0.7em; }
+.trail-scroll::-webkit-scrollbar { height:4px; }
+.trail-scroll::-webkit-scrollbar-track { background:#f0f0f0; border-radius:2px; }
+.trail-scroll::-webkit-scrollbar-thumb { background:#b8c8e0; border-radius:2px; }
+.trail-card { flex:0 0 256px; scroll-snap-align:start; border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff; }
+.trail-org { font-size:0.76em; font-weight:700; color:#2a6ebb; letter-spacing:0.07em; text-transform:uppercase; margin:0 0 3px; }
+.trail-role { font-size:0.8em; color:#777; font-style:italic; margin:0 0 10px; }
+.trail-desc { font-size:0.86em; color:#222; margin:0 0 12px; line-height:1.65; }
+.trail-tag { display:inline-block; font-size:0.71em; padding:2px 8px; border-radius:10px; background:#eef2fb; color:#2a6ebb; font-weight:600; margin:2px 2px 0 0; }
+</style>
+
+<div class="trail-scroll">
+
+  <div class="trail-card">
+    <p class="trail-org">Sarvam AI</p>
+    <p class="trail-role">Research Fellow · 2025–present</p>
+    <p class="trail-desc">Scaling Vision-Language Models for 22 Indian languages — large-scale data generation for pre-training and SFT, with state-of-the-art results on document understanding benchmarks.</p>
+    <span class="trail-tag">VLMs</span>
+    <span class="trail-tag">Multilingual</span>
+    <span class="trail-tag">Document Understanding</span>
   </div>
 
-  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
-    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">IISc · AIRL</p>
-    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">Pre-Doctoral Researcher · 2024–2025</p>
-    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">Adapting CLIP for open-vocabulary segmentation via Optimal Transport and LoRA; building cross-modal benchmarks spanning aerial, ground, RGB, and infrared perspectives.</p>
-    <div>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Open-Vocabulary</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Optimal Transport</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">CLIP · LoRA</span>
-    </div>
+  <div class="trail-card">
+    <p class="trail-org">IISc · AIRL</p>
+    <p class="trail-role">Pre-Doctoral Researcher · 2024–2025</p>
+    <p class="trail-desc">Adapting CLIP for open-vocabulary segmentation via Optimal Transport and LoRA; building cross-modal benchmarks spanning aerial, ground, RGB, and infrared perspectives.</p>
+    <span class="trail-tag">Open-Vocabulary</span>
+    <span class="trail-tag">Optimal Transport</span>
+    <span class="trail-tag">CLIP · LoRA</span>
   </div>
 
-  <div style="border:1px solid #e0e8f4; border-radius:8px; padding:16px 16px 14px; background:#fafcff;">
-    <p style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.06em; text-transform:uppercase; margin:0 0 4px;">GalaxEye Space</p>
-    <p style="font-size:0.82em; color:#666; font-style:italic; margin:0 0 10px;">DL & Image Processing Intern · 2024</p>
-    <p style="font-size:0.88em; color:#222; margin:0 0 12px; line-height:1.6;">SAR-optical data fusion from drone and satellite platforms; co-registration algorithm deployed aboard ISRO's POEM-4 mission on the GLX-SQ payload.</p>
-    <div>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">SAR-Optical Fusion</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">Remote Sensing</span>
-      <span style="display:inline-block;font-size:0.72em;padding:2px 8px;border-radius:10px;background:#eef2fb;color:#2a6ebb;font-weight:600;margin:2px 2px 0 0;">ISRO POEM-4</span>
-    </div>
+  <div class="trail-card">
+    <p class="trail-org">GalaxEye Space</p>
+    <p class="trail-role">DL & Image Processing Intern · 2024</p>
+    <p class="trail-desc">SAR-optical data fusion from drone and satellite platforms; co-registration algorithm deployed aboard ISRO's POEM-4 mission on the GLX-SQ payload.</p>
+    <span class="trail-tag">SAR-Optical Fusion</span>
+    <span class="trail-tag">Remote Sensing</span>
+    <span class="trail-tag">ISRO POEM-4</span>
   </div>
 
 </div>
