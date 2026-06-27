@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "My Profile" #"Your Name / Site Title"
+title                    : "Aditya Gandhamal"
 title_separator          : "-"
-name                     : &name "Aditya Gandhamal" #"Your Name"
-description              : &description "A passionate Real Madrid Aficionado" #"personal description"
-url                      : https://adityagandhamal.github.io #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Aditya Gandhamal"
+description              : &description "Research Fellow at Sarvam AI | Vision-Language Models | Computer Vision"
+url                      : https://adityagandhamal.github.io
+baseurl                  : ""
+repository               : "adityagandhamal/adityagandhamal.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,32 +24,32 @@ author:
   avatar           : "profile.png"
   name             : "Aditya Gandhamal" #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "A passionate Real Madrid Aficionado" #"Short biography for the left-hand sidebar"
+  bio              : "Research Fellow at Sarvam AI. Computer Vision & Vision-Language Models."
   location         : "Bangalore, India"
-  employer         : "Indian Institute of Science"
+  employer         : "Sarvam AI"
   uri              : # URL
-  email            : "adityam1@iisc.ac.in" 
+  email            : "adityagandhamalwork@gmail.com"
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "adityagandhamal"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "aditya-amg"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
