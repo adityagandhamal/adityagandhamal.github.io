@@ -25,23 +25,9 @@
     <p style="font-weight: 700; font-size: 0.97em; margin: 0 0 4px 0; line-height: 1.45; color: #1a1a1a;">{{ post.title }}</p>
     {% if post.authors %}<p style="color: #444; font-size: 0.87em; margin: 0 0 3px 0;">{{ post.authors }}</p>{% endif %}
     <p style="font-style: italic; color: #555; font-size: 0.87em; margin: 0 0 10px 0;">{{ post.venue }}</p>
-    <div style="display: flex; gap: 7px; flex-wrap: wrap;">
-      {% if post.abstract %}
-      <a href="{{ base_path }}{{ post.url }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">ABS</a>
-      {% endif %}
-      {% if post.codeurl %}
-      <a href="{{ post.codeurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">CODE</a>
-      {% endif %}
-      {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">PAPER</a>
-      {% endif %}
-      {% if post.posterurl %}
-      <a href="{{ post.posterurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">POSTER</a>
-      {% endif %}
-      {% if post.slidesurl %}
-      <a href="{{ post.slidesurl }}" style="font-size:0.78em; padding:3px 10px; border:1px solid #aaa; border-radius:3px; color:#333; text-decoration:none; font-weight:600; letter-spacing:0.04em;">SLIDES</a>
-      {% endif %}
-    </div>
+    {% if post.projecturl %}
+    <a href="{{ post.projecturl }}" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+    {% endif %}
   </div>
 </div>
 

@@ -15,35 +15,50 @@ My work sits at the intersection of **robust perception**, **open-world learning
 
 ## News
 
-<div style="max-height: 360px; overflow-y: auto; border: 1px solid #e3e3e3; border-radius: 6px; padding: 4px 18px;">
-<table style="width:100%; border-collapse:collapse;">
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Jun 2025</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow, working on India's first sovereign Vision-Language Model.</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Apr 2025</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Two papers accepted at <strong>CVPR Workshops 2025</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">2025</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;"><strong>CoLoRA</strong> accepted at <strong>IROS 2026</strong>.</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Aug 2024</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Joined <a href="https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/">AIRL, IISc</a> as a Pre-Doctoral Researcher under <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Prof. Suresh Sundaram</a>.</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Jul 2024</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> — <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> by <a href="https://galaxeye.space/">GalaxEye Space</a>.</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Apr 2024</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</td>
-  </tr>
-  <tr>
-    <td style="width:88px; font-weight:700; vertical-align:top; padding:10px 18px 10px 4px; white-space:nowrap; color:#222;">Jun 2023</td>
-    <td style="padding:10px 0; border-top:1px solid #f0f0f0;">Graduated B.E. in Electronics and Telecommunication from Savitribai Phule Pune University.</td>
-  </tr>
-</table>
+<div style="max-height: 380px; overflow-y: auto; padding: 6px 4px 6px 0;">
+  <div style="position: relative; padding-left: 26px; border-left: 2px solid #d0d8e8; margin-left: 6px;">
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2025</span>
+      <span style="font-size:0.9em; color:#222;">Joined <a href="https://www.sarvam.ai/">Sarvam AI</a> as a Research Fellow, working on India's first sovereign Vision-Language Model.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2025</span>
+      <span style="font-size:0.9em; color:#222;">Two papers accepted at <strong>CVPR Workshops 2025</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">2025</span>
+      <span style="font-size:0.9em; color:#222;"><strong>CoLoRA</strong> accepted at <strong>IROS 2026</strong>.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">AUG 2024</span>
+      <span style="font-size:0.9em; color:#222;">Joined <a href="https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/">AIRL, IISc</a> as a Pre-Doctoral Researcher under <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Prof. Suresh Sundaram</a>.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUL 2024</span>
+      <span style="font-size:0.9em; color:#222;">Co-registration algorithm deployed aboard <a href="https://www.isro.gov.in/POEM_4_Payloads_spadex.html">ISRO's POEM-4 Mission</a> — <a href="https://x.com/GalaxEye/status/1873977161142448443">GLX-SQ payload</a> by <a href="https://galaxeye.space/">GalaxEye Space</a>.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2024</span>
+      <span style="font-size:0.9em; color:#222;">Joined <a href="https://galaxeye.space/">GalaxEye Space</a> as a Deep Learning and Image Processing Intern.</span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 6px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#aab4c8; border:2px solid #fff; box-shadow:0 0 0 2px #aab4c8;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#aab4c8; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2023</span>
+      <span style="font-size:0.9em; color:#555;">Graduated B.E. in Electronics and Telecommunication from Savitribai Phule Pune University.</span>
+    </div>
+
+  </div>
 </div>
