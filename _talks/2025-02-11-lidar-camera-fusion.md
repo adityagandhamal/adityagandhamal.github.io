@@ -23,7 +23,26 @@ Discussed real-world applications in autonomous driving and robotics, key challe
 
 **Glimpses**
 
-<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:0.8em; align-items:flex-start;">
-  <img src="/images/talks/lidar-talk-1.jpg" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:contain;" alt="Talk glimpse 1">
-  <img src="/images/talks/lidar-talk-2.png" style="width:calc(50% - 6px); border-radius:6px; border:1px solid #e0e0e0; object-fit:contain;" alt="Talk glimpse 2">
+<div id="talk-show" style="position:relative;width:100%;max-width:580px;height:320px;background:#f8f8f8;border-radius:6px;border:1px solid #e0e0e0;overflow:hidden;margin-top:0.8em;">
+  <img src="/images/talks/lidar-talk-1.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;opacity:1;transition:opacity 0.5s ease-in-out;">
+  <img src="/images/talks/lidar-talk-2.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;opacity:0;transition:opacity 0.5s ease-in-out;">
 </div>
+<div id="talk-dots" style="display:flex;gap:6px;margin-top:7px;">
+  <span style="width:7px;height:7px;border-radius:50%;background:#2a6ebb;display:inline-block;transition:background 0.3s;"></span>
+  <span style="width:7px;height:7px;border-radius:50%;background:#ccc;display:inline-block;transition:background 0.3s;"></span>
+</div>
+<script>
+(function() {
+  var show = document.getElementById('talk-show');
+  var imgs = show.querySelectorAll('img');
+  var dots = document.getElementById('talk-dots').children;
+  var i = 0;
+  setInterval(function() {
+    imgs[i].style.opacity = '0';
+    dots[i].style.background = '#ccc';
+    i = (i + 1) % imgs.length;
+    imgs[i].style.opacity = '1';
+    dots[i].style.background = '#2a6ebb';
+  }, 2500);
+})();
+</script>
