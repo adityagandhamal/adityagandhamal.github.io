@@ -93,11 +93,25 @@ html[data-theme="dark"] {
     border: 1px solid #2a4f7a !important;
   }
 
-  /* about.md / projects.md <style>-block classes */
-  .sp-card         { border-bottom-color: #383838 !important; }
-  .sp-motivation   { color: #bbb !important; border-left-color: #444 !important; }
-  .sp-caption      { color: #999 !important; }
+  /* about.md <style>-block classes */
+  .sp-card          { border-bottom-color: #383838 !important; }
+  .sp-motivation    { color: #bbb !important; border-left-color: #3a4a6a !important; }
+  .sp-caption       { color: #999 !important; }
   .sp-grid-item img { background: #252525 !important; border-color: #383838 !important; }
+
+  /* projects.md <style>-block classes */
+  .proj-card        { border-bottom-color: #383838 !important; }
+  .proj-title       { color: #e4e4e4 !important; }
+  .proj-date        { color: #999 !important; }
+  .proj-desc        { color: #ccc !important; }
+  .proj-link        { color: #6ab0f5 !important; }
+  .proj-motivation  { color: #bbb !important; border-left-color: #3a4a6a !important; }
+  .media-caption    { color: #999 !important; }
+  .media-grid-item img   { background: #252525 !important; border-color: #383838 !important; }
+  .media-grid-item video { border-color: #383838 !important; }
+  .section-label    { color: #6ab0f5 !important; border-bottom-color: #6ab0f5 !important; }
+  .pr-entry         { color: #ccc !important; }
+  .pr-badge         { color: #6ab0f5 !important; border-color: #6ab0f5 !important; }
 
   /* ── Inline background overrides ── */
   *[style*="background:#f8f8f8"],
