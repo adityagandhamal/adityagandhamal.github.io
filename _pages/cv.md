@@ -69,7 +69,7 @@ redirect_from:
 }
 </style>
 
-<p style="margin-top:0;"><a href="/files/CV_detail.pdf" style="font-size:0.88em; padding:5px 14px; border:1px solid #2a6ebb; border-radius:4px; color:#2a6ebb; text-decoration:none; font-weight:600;">⬇ Download PDF</a></p>
+<p style="margin-top:0;"><a href="/files/CV_AdityaGandhamal.pdf" style="font-size:0.88em; padding:5px 14px; border:1px solid #2a6ebb; border-radius:4px; color:#2a6ebb; text-decoration:none; font-weight:600;">⬇ Download PDF</a></p>
 
 <div class="cv-section-title">Education</div>
 

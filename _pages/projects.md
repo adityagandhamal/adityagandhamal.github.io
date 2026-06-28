@@ -149,7 +149,7 @@ author_profile: true
   <p class="proj-desc">Fine-tuned ResNet-50 on CelebA for multi-attribute facial classification. Identified spurious correlations in "Bald" and "Male" predictions and implemented adversarial training to reduce demographic bias by 20%, evaluated using Equalized Odds.</p>
   <div class="proj-media">
     <img src="/images/projects/fair-face.png" alt="FAIR-Face results" style="width:100%; max-width:600px; border-radius:6px; border:1px solid #e0e0e0;" onerror="this.style.display='none'">
-    <p class="media-caption">A depiction of the CelebA dataset used for facial attribute classification.</p>
+    <p class="media-caption">A depiction of the CelebA dataset.</p>
   </div>
   <a href="https://github.com/adityagandhamal/fairness" class="proj-link">GitHub →</a>
 </div>
@@ -168,7 +168,7 @@ author_profile: true
         <video autoplay loop muted playsinline style="width:100%; height:180px; object-fit:cover; border-radius:5px; border:1px solid #e0e0e0;">
           <source src="/images/projects/satpo1.mp4" type="video/mp4">
         </video>
-        <p class="media-caption">Satellite telemetry data over 18 days used for training.</p>
+        <p class="media-caption">Satellite telemetry data.</p>
       </div>
       <div class="media-grid-item">
         <video autoplay loop muted playsinline style="width:100%; height:180px; object-fit:cover; border-radius:5px; border:1px solid #e0e0e0;">
