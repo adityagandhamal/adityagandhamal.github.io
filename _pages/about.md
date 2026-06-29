@@ -39,7 +39,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2025</span>
-      <span style="font-size:0.9em; color:#222;">Two papers accepted at <strong>CVPR Workshops 2025</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</span>
+      <span style="font-size:0.9em; color:#222;">Two papers accepted at <strong>CVPR 2025 Workshops</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">

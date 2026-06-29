@@ -109,7 +109,7 @@ redirect_from:
     <li>Conducted research on open-vocabulary learning, multi-modal alignment, and domain generalization in VLMs.</li>
     <li>Adapted CLIP for open-vocabulary segmentation using Optimal Transport, Masked Image Modelling, and PeFT (LoRA, Prompt Learning); built multimodal benchmarks (EO-IR / Sim-2-Real / aerial-ground / BEV) for open-world evaluation.</li>
     <li>Developed <a href="https://pypi.org/project/clip-cam/">CLIPcam</a> (PyPI) for CLIP explainability; delivered a talk on 3D Vision at a Faculty Development Program.</li>
-    <li>2 papers at CVPR Workshops 2025 · 1 paper accepted at IROS 2026 · 2 journal papers under review (TMLR, IEEE TAI)</li>
+    <li>2 papers at CVPR 2025 Workshops · 1 paper accepted at IROS 2026 · 2 journal papers under review (TMLR, IEEE TAI)</li>
   </ul>
 </div>
 
