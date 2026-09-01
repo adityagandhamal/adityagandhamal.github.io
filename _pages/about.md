@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Aditya Gandhamal"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
@@ -20,14 +20,21 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
 
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
+      <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">SEP 2026</span>
+      <span style="font-size:0.9em; color:#222;">Our paper <strong>Pixel2Perspective</strong> has been accepted at the <strong>MARS2 Workshop at ECCV 2026</strong>. <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.85em; font-weight:600; color:#2a6ebb;">Project Page →</a></span>
+    </div>
+
+    <div style="position: relative; margin-bottom: 20px;">
+      <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">JUN 2026</span>
-      <span style="font-size:0.9em; color:#222;">Our paper <strong>CoLoRA</strong> has been accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>.</span>
+      <span style="font-size:0.9em; color:#222;">Our paper <strong>CoLoRA</strong> has been accepted at the <strong>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)</strong>. <a href="https://aniruddhsikdar1.github.io/publications/colora/" style="font-size:0.85em; font-weight:600; color:#2a6ebb;">Project Page →</a></span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">FEB 2026</span>
-      <span style="font-size:0.9em; color:#222;">Released <a href="https://www.sarvam.ai/blogs/sarvam-vision"><strong>Sarvam Vision</strong></a> — India's first sovereign VLM — and presented at the <strong>Impact India AI Summit, New Delhi</strong>.</span>
+      <span style="font-size:0.9em; color:#222;">Released <a href="https://www.sarvam.ai/blogs/sarvam-vision"><strong>Sarvam Vision</strong></a> — India's first sovereign VLM — and presented at the <strong>India AI Impact Summit, New Delhi</strong>.</span>
+      <a href="/images/sarvam_india_ai.jpeg" target="_blank"><img src="/images/sarvam_india_ai.jpeg" alt="India AI Impact Summit" style="width:100%; max-width:320px; border-radius:5px; border:1px solid #e0e0e0; margin-top:7px; display:block;"></a>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
@@ -39,7 +46,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <div style="position: relative; margin-bottom: 20px;">
       <div style="position:absolute; left:-33px; top:5px; width:10px; height:10px; border-radius:50%; background:#2a6ebb; border:2px solid #fff; box-shadow:0 0 0 2px #2a6ebb;"></div>
       <span style="font-size:0.78em; font-weight:700; color:#2a6ebb; letter-spacing:0.03em; display:block; margin-bottom:2px;">APR 2025</span>
-      <span style="font-size:0.9em; color:#222;">Two papers accepted at <strong>CVPR 2025 Workshops</strong> — T4V (OV-COAST) and FMEA (AetherVision-Bench).</span>
+      <span style="font-size:0.9em; color:#222;">Two papers accepted at <strong>CVPR 2025 Workshops</strong> — T4V (<a href="https://aniruddhsikdar1.github.io/publications/ov-coast/" style="color:#2a6ebb; font-weight:600;">OV-COAST</a>) and FMEA (<a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="color:#2a6ebb; font-weight:600;">AetherVision-Bench</a>).</span>
     </div>
 
     <div style="position: relative; margin-bottom: 20px;">
