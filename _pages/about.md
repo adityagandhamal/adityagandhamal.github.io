@@ -105,7 +105,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
   <div style="margin-bottom: 0.4em;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models</p>
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Arya Kishor, Suresh Sundaram</p>
-    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">MARS2 Workshop at ECCV 2026</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">2nd Workshop on Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond at ECCV 2026</p>
     <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
