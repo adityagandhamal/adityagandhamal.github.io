@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2025-06-04-pixel2perspective
 date: 2025-06-04
-venue: '2nd Workshop on Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond at ECCV 2026'
+venue: '2nd Workshop on Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond at <strong>ECCV 2026</strong>'
 authors: 'Aditya Gandhamal*, Aniruddh Sikdar*, Arya Kishor, Suresh Sundaram'
 abstract: 'Benchmark evaluating VLM generalization across viewpoints and modalities in open-world settings, with uncertainty-based metrics for robustness analysis.'
 paperurl: ''

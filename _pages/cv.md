@@ -109,7 +109,7 @@ redirect_from:
     <li>Conducted research on open-vocabulary learning, multi-modal alignment, and domain generalization in VLMs.</li>
     <li>Adapted CLIP for open-vocabulary segmentation using Optimal Transport, Masked Image Modelling, and PeFT (LoRA, Prompt Learning); built multimodal benchmarks (EO-IR / Sim-2-Real / aerial-ground / BEV) for open-world evaluation.</li>
     <li>Developed <a href="https://pypi.org/project/clip-cam/">CLIPcam</a> (PyPI) for CLIP explainability; delivered a talk on 3D Vision at a Faculty Development Program.</li>
-    <li>2 papers at CVPR 2025 Workshops · 1 paper accepted at IROS 2026 · 2 journal papers under review (TMLR, IEEE TAI)</li>
+    <li>2 papers at CVPR 2025 Workshops · 1 paper at IROS 2026 · 1 paper at ECCV 2026 Workshops · 2 journal papers under review (TMLR, IEEE TAI)</li>
   </ul>
 </div>
 
@@ -201,10 +201,11 @@ redirect_from:
 <div style="margin-bottom: 1em;">
   <div class="cv-skill-row"><span class="cv-skill-label">Languages</span><span>Python, Bash/Shell</span></div>
   <div class="cv-skill-row"><span class="cv-skill-label">VLMs</span><span>CLIP, Qwen, Gemma, PaliGemma, InternVL, PaddleOCR-VL</span></div>
-  <div class="cv-skill-row"><span class="cv-skill-label">Training &amp; Fine-Tuning</span><span>Nvidia DGX Cloud Lepton, Yotta, SLURM, GCP, LoRA, Prompt Learning, Masked Image Modeling, Knowledge Distillation, Contrastive Learning, Context Optimization</span></div>
-  <div class="cv-skill-row"><span class="cv-skill-label">Inference &amp; Deploy</span><span>vLLM, Docker</span></div>
-  <div class="cv-skill-row"><span class="cv-skill-label">Data &amp; Pipelines</span><span>WebDataset (WebDS), Data Labelling &amp; Deduplication, Pre-Training Data Curation, Synthetic Data Generation, YouTube Data API v3, Google Cloud Storage</span></div>
-  <div class="cv-skill-row"><span class="cv-skill-label">Sensor Data</span><span>RGB-SAR, RGB-IR, Multispectral Satellite Imagery (Cartosat)</span></div>
+  <div class="cv-skill-row"><span class="cv-skill-label">Training Infra</span><span>Nvidia DGX Cloud Lepton, Yotta, SLURM, GCP</span></div>
+  <div class="cv-skill-row"><span class="cv-skill-label">Fine-Tuning Techniques</span><span>LoRA, Prompt Learning, Masked Image Modeling, Knowledge Distillation, Contrastive Learning, Context Optimization</span></div>
+  <div class="cv-skill-row"><span class="cv-skill-label">Inference and Deployment</span><span>vLLM, Docker</span></div>
+  <div class="cv-skill-row"><span class="cv-skill-label">Data Pipelines</span><span>WebDataset (WebDS), Data Labelling &amp; Deduplication, Pre-Training Data Curation, Synthetic Data Generation, YouTube Data API v3, Google Cloud Storage</span></div>
+  <div class="cv-skill-row"><span class="cv-skill-label">Multi-Sensor Data</span><span>RGB-SAR, RGB-IR, Multispectral Satellite Imagery (Cartosat)</span></div>
   <div class="cv-skill-row"><span class="cv-skill-label">Frameworks &amp; Tools</span><span>PyTorch, HuggingFace Transformers, Detectron2, TensorFlow, OpenCV, Git</span></div>
 </div>
 
