@@ -95,10 +95,17 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <a href="https://aniruddhsikdar1.github.io/publications/ov-coast/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
-  <div style="margin-bottom: 0.4em;">
+  <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
     <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">AetherVision-Bench: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation across Aerial and Ground Perspectives</p>
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">Workshop on Foundation Models Meet Embodied Agents (FMEA) at CVPR 2025</p>
+    <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+  </div>
+
+  <div style="margin-bottom: 0.4em;">
+    <p style="font-weight:700; font-size:0.97em; margin:0 0 3px 0; line-height:1.45; color:#1a1a1a;">Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models</p>
+    <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Arya Kishor, Suresh Sundaram</p>
+    <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">MARS2 Workshop at ECCV 2026</p>
     <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
   </div>
 
