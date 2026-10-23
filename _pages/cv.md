@@ -93,9 +93,13 @@ redirect_from:
   </div>
   <div class="cv-org">Bangalore</div>
   <ul class="cv-bullets">
-    <li>Built large-scale data generation pipelines for pre-training and SFT (150TB+, 260M+ images) for Sarvam Vision (3B-parameter VLM, 22 Indian languages), achieving SOTA on olmOCR-Bench and OmniDocBench.</li>
-    <li>Converted curated datasets to WebDataset (WebDS) for NVIDIA NeMo Framework; maintained internal Indic OCR benchmarks with RL-reward-based evaluation metrics; integrated frontier VLMs via vLLM distributed inference.</li>
-    <li>Leading an applied research project for GoI (MoSPI) — GIS + satellite + Gemma-31B + Grounding DINO pipeline to prioritize regions for the national Urban Frame Survey.</li>
+    <li>Core team member on Sarvam Vision v1 and v2.1 (3B VLM, 22 Indian languages), on the Pareto frontier of document AI and SOTA on olmOCR-Bench and Indic OCR, ahead of Gemini, Claude, GPT and Mistral; worked across 300TB+ of pre-training and SFT data.</li>
+    <li>Built the Indic OCR data pipeline end-to-end: language-ID labeling and filtering, YOLO layout detection, block-level sampling.</li>
+    <li>Built handwritten data pipelines from scanned archives and YouTube videos (key-frame extraction, filtering, labelling), feeding Sarvam Vision 2.1 handwritten OCR.</li>
+    <li>Maintained Indic OCR evals across checkpoints and open/closed VLMs; built model-consensus pipelines that compare VLM outputs to decide the labeling strategy for scaling data annotation.</li>
+    <li>Curated data for addressing hallucinations in Sarvam Vision 2.1; exploring RL post-training for form-element OCR (checkboxes, radio buttons).</li>
+    <li>Benchmarked open image-generation models (SenseNova, Qwen-Image, BAGEL, Z-Image, HiDream, etc.) on B200s with vLLM-Omni, ablating caching and sequence parallelism; reported memory vs. throughput trade-offs to pick models for hosting.</li>
+    <li>Leading a MoSPI (Govt. of India) project: GIS + satellite + Gemma-31B + SAM to prioritize Urban Frame Survey regions.</li>
   </ul>
 </div>
 
@@ -106,10 +110,11 @@ redirect_from:
   </div>
   <div class="cv-org">Bangalore &nbsp;·&nbsp; Advisor: <a href="https://aero.iisc.ac.in/people/sureshsundaram/">Dr. Suresh Sundaram</a></div>
   <ul class="cv-bullets">
-    <li>Conducted research on open-vocabulary learning, multi-modal alignment, and domain generalization in VLMs.</li>
-    <li>Adapted CLIP for open-vocabulary segmentation using Optimal Transport, Masked Image Modelling, and PeFT (LoRA, Prompt Learning); built multimodal benchmarks (EO-IR / Sim-2-Real / aerial-ground / BEV) for open-world evaluation.</li>
-    <li>Developed <a href="https://pypi.org/project/clip-cam/">CLIPcam</a> (PyPI) for CLIP explainability; delivered a talk on 3D Vision at a Faculty Development Program.</li>
-    <li>1 paper at IROS 2026 · 1 paper at ECCV 2026 Workshops · 2 papers at CVPR 2025 Workshops · 1 journal paper under review at TMLR</li>
+    <li>Conducted research on open-vocabulary learning, multi-modal alignment, and domain generalization in Vision-Language Models.</li>
+    <li>Adapted CLIP for open-vocabulary segmentation using Optimal Transport, masked image modelling, and PEFT (LoRA, Prompt Learning).</li>
+    <li>Built benchmarks probing where VLMs break in open-world settings, across modalities (RGB, IR, SAR), viewpoints (ground, aerial, BEV) and sim-to-real; proposed MSRIQ, a cross-modal IoU-based uncertainty metric (AetherVision-Bench, Pixel2Perspective).</li>
+    <li>Developed <a href="https://pypi.org/project/clip-cam/">CLIPcam</a> (PyPI package for explainability) and delivered a talk on 3D Vision at a faculty development program.</li>
+    <li>Research output: 1 paper at IROS 2026 · 1 paper at ECCV 2026 Workshops · 2 papers at CVPR 2025 Workshops · 1 paper under review at ICRA 2027</li>
   </ul>
 </div>
 
