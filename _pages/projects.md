@@ -85,11 +85,11 @@ author_profile: true
     <span class="proj-date">2025</span>
   </div>
   <span class="proj-tag">Python Package</span><span class="proj-tag">VLM Explainability</span><span class="proj-tag">CLIP</span>
-  <p class="proj-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through Grad-CAM-style heatmaps.</p>
+  <p class="proj-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through dense image–text similarity heatmaps.</p>
   <p class="proj-desc">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for interpretability and debugging.</p>
   <div class="proj-media">
     <img src="/images/projects/clipcam.png" alt="CLIPcam visualization" style="width:100%; max-width:600px; border-radius:6px; border:1px solid #e0e0e0;" onerror="this.style.display='none'">
-    <p class="media-caption">Grad-CAM-style heatmaps showing prompt-image feature alignment in CLIP.</p>
+    <p class="media-caption">Dense image–text similarity heatmaps showing where CLIP grounds a text prompt in an image.</p>
   </div>
   <a href="https://github.com/adityagandhamal/clip_cam" class="proj-link">GitHub →</a>
   <a href="https://pypi.org/project/clip-cam/" class="proj-link">PyPI →</a>

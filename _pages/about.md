@@ -132,7 +132,7 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
 
 <div class="sp-card">
   <p style="font-weight:700; font-size:0.97em; margin:0 0 4px 0; color:#1a1a1a;"><a href="https://github.com/adityagandhamal/clip_cam" style="color:#1a1a1a; text-decoration:none;">CLIPcam</a> &nbsp;<code style="font-size:0.82em; background:#f4f4f4; padding:1px 6px; border-radius:3px; font-weight:400;">pip install clip-cam</code></p>
-  <p class="sp-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through Grad-CAM-style heatmaps.</p>
+  <p class="sp-motivation">As VLMs become widely adopted, understanding why a model attends to specific image regions for a given prompt is critical for debugging. CLIPcam addresses this gap by exposing the internal alignment between visual and textual embeddings through dense image–text similarity heatmaps.</p>
   <p style="font-size:0.88em; color:#333; margin:0 0 8px 0;">An open-source Python package for visualizing prompt-image feature alignment in ViT-based CLIP models. Supports custom fine-tuned checkpoints, multiple CLIP backbones, and easy integration into VLM workflows for explainability.</p>
   <img src="/images/projects/clipcam.png" alt="CLIPcam heatmap visualization" style="width:100%;max-width:520px;border-radius:6px;border:1px solid #e0e0e0;margin:0 0 10px;display:block;" onerror="this.style.display='none'">
   <a href="https://github.com/adityagandhamal/clip_cam" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">GitHub →</a>
