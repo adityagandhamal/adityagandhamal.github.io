@@ -105,10 +105,10 @@ author_profile: true
   <p class="proj-desc">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 19 multi-domain datasets.</p>
   <div class="proj-media">
     <div id="pl-show-proj" style="position:relative;width:100%;max-width:580px;height:260px;background:#f8f8f8;border-radius:6px;border:1px solid #e0e0e0;overflow:hidden;">
-      <img src="/images/projects/prompr-learning-base-CATSeg-CVPR24.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:1;transition:opacity 0.5s ease-in-out;">
-      <img src="/images/projects/prompt-learning-CoOp-IJCV22.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
-      <img src="/images/projects/prompt-learning-CoCoOp-CVPR22.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
-      <img src="/images/projects/prompt-learning-TCP-CVPR24.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
+      <img src="/images/projects/prompt-learning-base-CATSeg-CVPR24.png" alt="Base: CAT-Seg (CVPR'24)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:1;transition:opacity 0.5s ease-in-out;">
+      <img src="/images/projects/prompt-learning-CoOp-IJCV22.png" alt="+ CoOp (IJCV'22)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
+      <img src="/images/projects/prompt-learning-CoCoOp-CVPR22.png" alt="+ CoCoOp (CVPR'22)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
+      <img src="/images/projects/prompt-learning-TCP-CVPR24.png" alt="+ TCP (CVPR'24)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:0;transition:opacity 0.5s ease-in-out;">
       <div id="pl-label-proj" style="position:absolute;bottom:0;left:0;right:0;background:rgba(20,20,20,0.62);padding:7px 14px;font-size:0.8em;color:#fff;font-weight:600;letter-spacing:0.01em;">Base: CAT-Seg (CVPR'24)</div>
     </div>
     <div id="pl-dots-proj" style="display:flex;gap:6px;margin-top:8px;">
