@@ -93,6 +93,8 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Arya Kishor, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">2nd Workshop on Multimodal Reasoning and Slow Thinking in the Large Model Era: Towards System 2 and Beyond at ECCV 2026</p>
     <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+    <span style="color:#aaa; margin:0 6px;">·</span>
+    <a href="https://openreview.net/forum?id=DqDTS4Helq" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Paper →</a>
   </div>
 
   <div style="margin-bottom: 1.6em; padding-bottom: 1.6em; border-bottom: 1px solid #f0f0f0;">
@@ -100,6 +102,8 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aditya Gandhamal*, Aniruddh Sikdar*, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">The 4th Workshop on Transformers for Vision (T4V) at CVPR 2025</p>
     <a href="https://aniruddhsikdar1.github.io/publications/ov-coast/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+    <span style="color:#aaa; margin:0 6px;">·</span>
+    <a href="https://arxiv.org/abs/2506.03706" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Paper →</a>
   </div>
 
   <div style="margin-bottom: 0.4em;">
@@ -107,6 +111,8 @@ I'm interested in making vision systems robust and generalizable — beyond fixe
     <p style="color:#444; font-size:0.87em; margin:0 0 2px 0;">Aniruddh Sikdar*, Aditya Gandhamal*, Suresh Sundaram</p>
     <p style="font-style:italic; color:#555; font-size:0.87em; margin:0 0 8px 0;">Workshop on Foundation Models Meet Embodied Agents (FMEA) at CVPR 2025</p>
     <a href="https://aniruddhsikdar1.github.io/publications/pixel2perspective/" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Project Page →</a>
+    <span style="color:#aaa; margin:0 6px;">·</span>
+    <a href="https://arxiv.org/abs/2506.03709" style="font-size:0.82em; color:#2a6ebb; text-decoration:none; font-weight:600;">Paper →</a>
   </div>
 
 </div>

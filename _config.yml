@@ -158,6 +158,7 @@ include:
   - _pages
   - files
 exclude:
+  - CV_CHANGES.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
