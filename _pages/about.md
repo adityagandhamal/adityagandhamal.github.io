@@ -11,7 +11,7 @@ I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on la
 
 ## Research Interests
 
-I'm interested in making vision systems robust and generalizable — beyond fixed labelled sets, across sensor modalities, and under conditions unseen at training time. My interests span open-world learning (adapting models to novel classes and domains without retraining), 3D visual understanding and reasoning, and multi-modal perception — fusing cues from cameras, LiDAR, depth, infrared, SAR, and language to build representations that hold up when the world doesn't match the training distribution.
+I'm interested in representation learning and generalization — building visual representations that hold up across sensor modalities, viewpoints, and domains unseen at training time. The core question is robustness: understanding when and why these representations break under distribution shift, and how to fix it without losing their pretrained alignment. More broadly, I'm interested in how robust representations can underpin embodied AI.
 
 ## News
 
