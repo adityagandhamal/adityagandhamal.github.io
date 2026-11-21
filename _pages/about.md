@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on large-scale data pipelines and evals for pre-training and post-training of Vision-Language Models. Previously, I was a Pre-Doctoral Researcher at the [Artificial Intelligence and Robotics Laboratory (AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/), Indian Institute of Science, where I worked on open-vocabulary learning, domain generalization, and multi-modal alignment problems under the guidance of [Prof. Suresh Sundaram](https://aero.iisc.ac.in/people/sureshsundaram/). As an intern at [GalaxEye Space](https://galaxeye.space/), I built a SAR-optical co-registration algorithm that flew to space aboard [ISRO's POEM-4 Mission](https://www.isro.gov.in/POEM_4_Payloads_spadex.html).
+I'm a Research Fellow at [Sarvam AI](https://www.sarvam.ai/), where I work on large-scale data pipelines and evals for pre-training and post-training of Vision-Language Models. Previously, I was a Pre-Doctoral Researcher at the [Artificial Intelligence and Robotics Laboratory (AIRL)](https://www.linkedin.com/company/artificial-intelligence-and-robotics-laboratory/), Indian Institute of Science, where I worked on open-vocabulary learning, domain generalization, and multi-modal alignment problems under the guidance of [Prof. Suresh Sundaram](https://aero.iisc.ac.in/people/sureshsundaram/). Earlier, as an intern at [GalaxEye Space](https://galaxeye.space/), I built a SAR-optical co-registration algorithm that flew to space aboard [ISRO's POEM-4 Mission](https://www.isro.gov.in/POEM_4_Payloads_spadex.html).
 
 ## Research Interests
 
