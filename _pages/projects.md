@@ -102,7 +102,7 @@ author_profile: true
   </div>
   <span class="proj-tag">Open-Vocabulary</span><span class="proj-tag">Prompt Learning</span><span class="proj-tag">Segmentation</span>
   <p class="proj-motivation">Fixed-text templates like "a photo of a [CLASS]" are brittle for open-vocabulary segmentation — they fail to capture context or generalise to unseen categories. Prompt learning replaces these with learnable vectors, enabling CLIP to adapt its textual representations to diverse domains.</p>
-  <p class="proj-desc">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 20 multi-domain datasets.</p>
+  <p class="proj-desc">Implemented prompt learning techniques for CAT-Seg (CVPR'24), integrating CLIP with Context Optimization (IJCV'22), Conditional Context Optimization (CVPR'22), and Textual-based Class-aware Prompting (CVPR'24); conducted ablation studies evaluating each variant against the MESS benchmark covering 19 multi-domain datasets.</p>
   <div class="proj-media">
     <div id="pl-show-proj" style="position:relative;width:100%;max-width:580px;height:260px;background:#f8f8f8;border-radius:6px;border:1px solid #e0e0e0;overflow:hidden;">
       <img src="/images/projects/prompr-learning-base-CATSeg-CVPR24.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px;opacity:1;transition:opacity 0.5s ease-in-out;">
